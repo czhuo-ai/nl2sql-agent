@@ -1,0 +1,30 @@
+{"id": "q01", "q": "一共有多少条岗位数据？", "gold": "SELECT COUNT(*) AS n FROM jobs"}
+{"id": "q02", "q": "通过筛选的岗位有多少条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE reject_reason = ''"}
+{"id": "q03", "q": "AI 应用方向的岗位，月薪上限最高是多少 K？", "gold": "SELECT MAX(salary_max_k) AS max_k FROM jobs WHERE keyword = 'AI应用'"}
+{"id": "q04", "q": "全部岗位按 keyword 分组，每个方向各有多少条？", "gold": "SELECT keyword, COUNT(*) AS n FROM jobs GROUP BY keyword ORDER BY n DESC"}
+{"id": "q05", "q": "哪个区的岗位数量最多（不算没写区的）？", "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district <> '' GROUP BY district ORDER BY n DESC LIMIT 1"}
+{"id": "q06", "q": "南山区和福田区各有多少个岗位？", "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district IN ('南山区','福田区') GROUP BY district ORDER BY district"}
+{"id": "q07", "q": "月薪上限超过 30K 的岗位有哪些？只要岗位名和公司两列", "gold": "SELECT title, company FROM jobs WHERE salary_kind = 'monthly' AND salary_max_k > 30 ORDER BY salary_max_k DESC"}
+{"id": "q08", "q": "所有月薪岗位的平均月薪下限是多少 K？", "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM jobs WHERE salary_kind = 'monthly'"}
+{"id": "q09", "q": "按薪资下限从高到低排序，列出前 5 条的岗位名、公司、薪资下限 K 值", "gold": "SELECT title, company, salary_min_k FROM jobs WHERE salary_kind = 'monthly' ORDER BY salary_min_k DESC LIMIT 5"}
+{"id": "q10", "q": "要求 3-5 年经验的岗位有多少条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE experience = '3-5年'"}
+{"id": "q11", "q": "要求本科的岗位占比是多少？", "gold": "SELECT ROUND(100.0 * SUM(CASE WHEN degree = '本科' THEN 1 ELSE 0 END) / COUNT(*), 1) AS pct FROM jobs"}
+{"id": "q12", "q": "被筛掉的岗位里，因为薪资低于 15K 的有多少条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE reject_reason = '薪资低于 15K'"}
+{"id": "q13", "q": "杭州有多少个岗位？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE city = '杭州'"}
+{"id": "q14", "q": "标题里带『实习』的岗位名，列举前 5 条", "gold": "SELECT title FROM jobs WHERE title LIKE '%实习%' LIMIT 5"}
+{"id": "q15", "q": "五险一金这个标签出现在多少个岗位里？", "gold": "SELECT COUNT(DISTINCT job_id) AS n FROM job_tags WHERE tag = '五险一金'"}
+{"id": "q16", "q": "同时带 Java 和 本科 标签的岗位有多少条？", "gold": "SELECT COUNT(*) AS n FROM (SELECT job_id FROM job_tags WHERE tag = 'Java' INTERSECT SELECT job_id FROM job_tags WHERE tag = '本科')"}
+{"id": "q17", "q": "每个关键词下，通过筛选的月薪岗位平均薪资下限是多少 K？", "gold": "SELECT keyword, ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM jobs WHERE reject_reason = '' AND salary_kind = 'monthly' GROUP BY keyword ORDER BY avg_min_k DESC"}
+{"id": "q18", "q": "月薪上限最高的那条岗位是哪个公司？只输出公司名一列", "gold": "SELECT company FROM jobs WHERE salary_kind = 'monthly' ORDER BY salary_max_k DESC LIMIT 1"}
+{"id": "q19", "q": "日薪岗位有多少条？平均日薪上限是多少元？", "gold": "SELECT COUNT(*) AS n, ROUND(AVG(daily_max_yuan), 0) AS avg_daily FROM jobs WHERE salary_kind = 'daily'"}
+{"id": "q20", "q": "数据分析方向一共有多少条岗位，其中通过筛选的有几条？", "gold": "SELECT COUNT(*) AS total, SUM(CASE WHEN reject_reason = '' THEN 1 ELSE 0 END) AS passed FROM jobs WHERE keyword = '数据分析'"}
+{"id": "q21", "q": "列出岗位数量最少的 3 个区（不含空值）", "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district <> '' GROUP BY district ORDER BY n ASC, district LIMIT 3"}
+{"id": "q22", "q": "年薪（月薪上限乘 12）最高的岗位是哪个？只输出岗位名和公司两列", "gold": "SELECT title, company FROM jobs WHERE salary_kind = 'monthly' ORDER BY salary_max_k DESC LIMIT 1"}
+{"id": "q23", "q": "大模型方向通过筛选的岗位有哪些？给出岗位名和公司名", "gold": "SELECT title, company FROM jobs WHERE keyword = '大模型' AND reject_reason = ''"}
+{"id": "q24", "q": "既没有写区、薪资字段也是空的岗位有多少条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE district = '' AND salary_raw = ''"}
+{"id": "q25", "q": "13 薪以上的岗位有多少条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE salary_months >= 13"}
+{"id": "q26", "q": "各学历要求下，月薪岗位的平均薪资上限是多少 K？", "gold": "SELECT degree, ROUND(AVG(salary_max_k), 2) AS avg_max_k FROM jobs WHERE salary_kind = 'monthly' AND degree <> '' GROUP BY degree ORDER BY avg_max_k DESC"}
+{"id": "q27", "q": "测试开发方向在南山区的岗位有几条？", "gold": "SELECT COUNT(*) AS n FROM jobs WHERE keyword = '测试开发' AND district = '南山区'"}
+{"id": "q28", "q": "月薪岗位的平均薪资区间（下限到上限）是多少 K？", "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k, ROUND(AVG(salary_max_k), 2) AS avg_max_k FROM jobs WHERE salary_kind = 'monthly'"}
+{"id": "q29", "q": "哪些公司招的岗位数量最多？列出前 5 家", "gold": "SELECT company, COUNT(*) AS n FROM jobs GROUP BY company ORDER BY n DESC, company LIMIT 5"}
+{"id": "q30", "q": "经验不限的月薪岗位，平均薪资下限是多少 K？", "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM jobs WHERE experience = '经验不限' AND salary_kind = 'monthly'"}
