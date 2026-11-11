@@ -1,0 +1,10 @@
+# 只装跑本项目需要的包（版本为本机实测通过的组合）
+duckdb==1.1.3
+fastapi==0.115.6
+uvicorn==0.32.1
+pydantic==2.9.2
+plotly==5.24.1
+langgraph==0.2.60
+langchain-core==0.3.28
+requests==2.32.3
+pandas>=2.0
