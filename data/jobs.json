@@ -1,0 +1,2374 @@
+{
+  "at": "2026-11-11T09:54:53.169Z",
+  "total": 119,
+  "passed": 21,
+  "jobs": [
+    {
+      "id": "fa17edbfd7aa00e80nx83N60EVdV",
+      "url": "https://www.zhipin.com/job_detail/fa17edbfd7aa00e80nx83N60EVdV.html",
+      "title": "算法测试工程师/算法工程师",
+      "salary": "14-16K",
+      "company": "慧博云通",
+      "area": "深圳",
+      "tags": [
+        "5-10年",
+        "本科",
+        "团队管理经验",
+        "生日福利",
+        "加班补助",
+        "五险一金",
+        "零食下午茶",
+        "带薪年假"
+      ],
+      "raw": "算法测试工程师/算法工程师 14-16K 慧博云通 深圳",
+      "keyword": "算法工程师",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "8545b538522128f30nx83Nm4EVFQ",
+      "url": "https://www.zhipin.com/job_detail/8545b538522128f30nx83Nm4EVFQ.html",
+      "title": "算法工程师",
+      "salary": "15-25K",
+      "company": "深圳奥明星程生物科技",
+      "area": "深圳·福田区·石厦",
+      "tags": [
+        "经验不限",
+        "本科",
+        "绩效奖金",
+        "五险一金",
+        "餐补",
+        "带薪年假"
+      ],
+      "raw": "算法工程师 15-25K 深圳奥明星程生物科技 深圳·福田区·石厦",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "da5730f24c3ed86b03160ty_EVtY",
+      "url": "https://www.zhipin.com/job_detail/da5730f24c3ed86b03160ty_EVtY.html",
+      "title": "算法工程师（大模型 深度学习 可培养）",
+      "salary": "15-30K·14薪",
+      "company": "深圳某大型计算机软件公司",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "本科",
+        "C/C++",
+        "机器学习",
+        "图像算法",
+        "深度学习",
+        "大模型算法",
+        "Python"
+      ],
+      "raw": "算法工程师（大模型 深度学习 可培养） 15-30K·14薪 深圳某大型计算机软件公司 深圳",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "1457e865617b7f590nxy2N2_E1tX",
+      "url": "https://www.zhipin.com/job_detail/1457e865617b7f590nxy2N2_E1tX.html",
+      "title": "具身操作算法工程师实习生",
+      "salary": "450-500元/天",
+      "company": "Anker",
+      "area": "深圳·宝安区·新安",
+      "tags": [
+        "本科",
+        "5天/周",
+        "6个月",
+        "机器学习",
+        "C/C++",
+        "补充医疗保险",
+        "包吃",
+        "年终奖"
+      ],
+      "raw": "具身操作算法工程师实习生 450-500元/天 Anker 深圳·宝安区·新安",
+      "keyword": "算法工程师",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "6d4a6633c7cd13110nJ92dS_GFVY",
+      "url": "https://www.zhipin.com/job_detail/6d4a6633c7cd13110nJ92dS_GFVY.html",
+      "title": "VLA/VLM算法工程师",
+      "salary": "85-110K·16薪",
+      "company": "深圳某大型智能硬件公司",
+      "area": "深圳",
+      "tags": [
+        "3-5年",
+        "本科",
+        "股票期权",
+        "节日福利",
+        "团建聚餐",
+        "零食下午茶",
+        "餐补",
+        "带薪年假"
+      ],
+      "raw": "VLA/VLM算法工程师 85-110K·16薪 深圳某大型智能硬件公司 深圳",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "e56e8d0889369c740nV53tW5GFFV",
+      "url": "https://www.zhipin.com/job_detail/e56e8d0889369c740nV53tW5GFFV.html",
+      "title": "机器视觉算法工程师",
+      "salary": "16-30K",
+      "company": "行知行机器人",
+      "area": "深圳·宝安区·石岩",
+      "tags": [
+        "3-5年",
+        "本科",
+        "五险一金",
+        "带薪年假",
+        "年终奖",
+        "提供住宿",
+        "餐补",
+        "节日福利"
+      ],
+      "raw": "机器视觉算法工程师 16-30K 行知行机器人 深圳·宝安区·石岩",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "1acf01a39d6c6b4403B739q-ElpT",
+      "url": "https://www.zhipin.com/job_detail/1acf01a39d6c6b4403B739q-ElpT.html",
+      "title": "【日常实习】SSC-算法工程师-供应链方向-SZ",
+      "salary": "400-450元/天",
+      "company": "Shopee",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "5天/周",
+        "3个月",
+        "C/C++",
+        "机器学习",
+        "规控算法",
+        "运筹优化算法",
+        "深度学习"
+      ],
+      "raw": "【日常实习】SSC-算法工程师-供应链方向-SZ 400-450元/天 Shopee 深圳·南山区·科技园",
+      "keyword": "算法工程师",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "59091146097d41d30nx52tW7GVBQ",
+      "url": "https://www.zhipin.com/job_detail/59091146097d41d30nx52tW7GVBQ.html",
+      "title": "Agent算法工程师",
+      "salary": "12-15K",
+      "company": "深圳维可安贸易",
+      "area": "深圳·宝安区·西乡",
+      "tags": [
+        "经验不限",
+        "本科"
+      ],
+      "raw": "Agent算法工程师 12-15K 深圳维可安贸易 深圳·宝安区·西乡",
+      "keyword": "算法工程师",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "df1b39e1dc8b2ed10nx90t-_ElRZ",
+      "url": "https://www.zhipin.com/job_detail/df1b39e1dc8b2ed10nx90t-_ElRZ.html",
+      "title": "运筹优化算法工程师",
+      "salary": "40-60K·14薪",
+      "company": "嘉立创",
+      "area": "深圳",
+      "tags": [
+        "5-10年",
+        "本科",
+        "运筹优化算法",
+        "算法工程化经验",
+        "Python",
+        "SQL",
+        "带薪年假",
+        "加班补助"
+      ],
+      "raw": "运筹优化算法工程师 40-60K·14薪 嘉立创 深圳",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "8c6e9ca788853aeb0nx909S6ElpQ",
+      "url": "https://www.zhipin.com/job_detail/8c6e9ca788853aeb0nx909S6ElpQ.html",
+      "title": "具身算法工程师（操控算法）",
+      "salary": "30-60K",
+      "company": "深圳市诺因智能",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "本科",
+        "C/C++",
+        "机器学习",
+        "图像算法",
+        "深度学习",
+        "算法工程化经验",
+        "Python"
+      ],
+      "raw": "具身算法工程师（操控算法） 30-60K 深圳市诺因智能 深圳",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "c83f013425deea210nJ729S6F1JS",
+      "url": "https://www.zhipin.com/job_detail/c83f013425deea210nJ729S6F1JS.html",
+      "title": "路径规划算法工程师",
+      "salary": "30-60K·15薪",
+      "company": "文远知行",
+      "area": "深圳·南山区·西丽",
+      "tags": [
+        "在校/应届",
+        "本科",
+        "深度学习",
+        "大模型算法",
+        "机器学习",
+        "强化学习",
+        "C/C++",
+        "Python"
+      ],
+      "raw": "路径规划算法工程师 30-60K·15薪 文远知行 深圳·南山区·西丽",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "925bd2a03c634f460nN42tu7ElJZ",
+      "url": "https://www.zhipin.com/job_detail/925bd2a03c634f460nN42tu7ElJZ.html",
+      "title": "算法工程师",
+      "salary": "15-30K",
+      "company": "极控智联",
+      "area": "深圳·宝安区·石岩",
+      "tags": [
+        "5-10年",
+        "本科",
+        "深度学习",
+        "机器学习",
+        "强化学习",
+        "图像算法",
+        "融合感知算法",
+        "C/C++"
+      ],
+      "raw": "算法工程师 15-30K 极控智联 深圳·宝安区·石岩",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "5650bf10a05e8cf90nx90t60FFVZ",
+      "url": "https://www.zhipin.com/job_detail/5650bf10a05e8cf90nx90t60FFVZ.html",
+      "title": "算法工程师",
+      "salary": "12-24K",
+      "company": "华夏科技有限公司",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "经验不限",
+        "本科",
+        "深度学习",
+        "Python",
+        "PyTorch",
+        "ONNX"
+      ],
+      "raw": "算法工程师 12-24K 华夏科技有限公司 深圳·南山区·科技园",
+      "keyword": "算法工程师",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "70532c93b0301cd80nNy3dy1ElJV",
+      "url": "https://www.zhipin.com/job_detail/70532c93b0301cd80nNy3dy1ElJV.html",
+      "title": "具身Agent算法工程师",
+      "salary": "35-60K·16薪",
+      "company": "深圳费莫一科技",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "本科",
+        "自然语言处理算法",
+        "多模态算法",
+        "算法工程化经验",
+        "强化学习",
+        "有无线网",
+        "团建聚餐"
+      ],
+      "raw": "具身Agent算法工程师 35-60K·16薪 深圳费莫一科技 深圳",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "0b15845bcd1ebb130nx739q9E1dY",
+      "url": "https://www.zhipin.com/job_detail/0b15845bcd1ebb130nx739q9E1dY.html",
+      "title": "大模型评测与算法工程师",
+      "salary": "15-30K",
+      "company": "中恒创科",
+      "area": "深圳·福田区·岗厦",
+      "tags": [
+        "3-5年",
+        "本科",
+        "测评",
+        "图像算法",
+        "大模型算法",
+        "算法工程化经验",
+        "Python",
+        "工程化"
+      ],
+      "raw": "大模型评测与算法工程师 15-30K 中恒创科 深圳·福田区·岗厦",
+      "keyword": "算法工程师",
+      "reject": null
+    },
+    {
+      "id": "37edcf9fbfa9ca640nFy2N-0EFdX",
+      "url": "https://www.zhipin.com/job_detail/37edcf9fbfa9ca640nFy2N-0EFdX.html",
+      "title": "AI大模型落地运营",
+      "salary": "8-10K",
+      "company": "爱思为科技",
+      "area": "深圳·龙华区·清湖",
+      "tags": [
+        "经验不限",
+        "大专",
+        "数据运营",
+        "策略运营",
+        "内容运营",
+        "不接受居家办公",
+        "通讯补贴",
+        "交通补助"
+      ],
+      "raw": "AI大模型落地运营 8-10K 爱思为科技 深圳·龙华区·清湖",
+      "keyword": "大模型",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "9cec828961c6247c0nxy2N2_FlFS",
+      "url": "https://www.zhipin.com/job_detail/9cec828961c6247c0nxy2N2_FlFS.html",
+      "title": "大模型领域专家（线上）",
+      "salary": "1000-2000元/天",
+      "company": "陕西未来纪元智能科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "1天/周",
+        "1个月",
+        "年终奖",
+        "带薪年假",
+        "五险一金",
+        "加班补助",
+        "有无线网"
+      ],
+      "raw": "大模型领域专家（线上） 1000-2000元/天 陕西未来纪元智能科技 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": null
+    },
+    {
+      "id": "caba977649660f240nV43tS8GFBR",
+      "url": "https://www.zhipin.com/job_detail/caba977649660f240nV43tS8GFBR.html",
+      "title": "大模型Agent业务开发实习生-剪映",
+      "salary": "500-550元/天",
+      "company": "字节跳动",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "4个月",
+        "Python",
+        "Langchain",
+        "大模型",
+        "api调用",
+        "agent"
+      ],
+      "raw": "大模型Agent业务开发实习生-剪映 500-550元/天 字节跳动 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "d412267cea116bf20nx82tW1FlNV",
+      "url": "https://www.zhipin.com/job_detail/d412267cea116bf20nx82tW1FlNV.html",
+      "title": "多模态大模型算法实习生",
+      "salary": "200-250元/天",
+      "company": "创维彩电",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "5天/周",
+        "6个月",
+        "定期体检",
+        "节日福利",
+        "零食下午茶",
+        "五险一金",
+        "住房补贴"
+      ],
+      "raw": "多模态大模型算法实习生 200-250元/天 创维彩电 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "82d5fdb53ddc0b530nN40tW4FVRT",
+      "url": "https://www.zhipin.com/job_detail/82d5fdb53ddc0b530nN40tW4FVRT.html",
+      "title": "大模型开发（线上面试 六险一金+周末双休）",
+      "salary": "15-30K",
+      "company": "深圳某大型计算机软件公司",
+      "area": "深圳",
+      "tags": [
+        "经验不限",
+        "本科",
+        "夜班补助",
+        "绩效奖金",
+        "员工旅游",
+        "交通补助",
+        "法定节假日三薪",
+        "零食下午茶"
+      ],
+      "raw": "大模型开发（线上面试 六险一金+周末双休） 15-30K 深圳某大型计算机软件公司 深圳",
+      "keyword": "大模型",
+      "reject": null
+    },
+    {
+      "id": "ec9706aca90676350nx80ti6EVJS",
+      "url": "https://www.zhipin.com/job_detail/ec9706aca90676350nx80ti6EVJS.html",
+      "title": "大模型 API 测试专员（资源评测方向）",
+      "salary": "6-7K",
+      "company": "屿算未来",
+      "area": "深圳·龙华区·民治",
+      "tags": [
+        "1-3年",
+        "大专",
+        "大模型api",
+        "责任心第一",
+        "接受新人",
+        "接口测试",
+        "入职即买五险"
+      ],
+      "raw": "大模型 API 测试专员（资源评测方向） 6-7K 屿算未来 深圳·龙华区·民治",
+      "keyword": "大模型",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "d66bd5984e9a45720nx_3tm0EFZS",
+      "url": "https://www.zhipin.com/job_detail/d66bd5984e9a45720nx_3tm0EFZS.html",
+      "title": "AI影视大模型训练师",
+      "salary": "13-17K",
+      "company": "上海思芮",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "本科",
+        "补充医疗保险",
+        "五险一金"
+      ],
+      "raw": "AI影视大模型训练师 13-17K 上海思芮 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "b8fc960ddb8abe550nx53dW4GFNV",
+      "url": "https://www.zhipin.com/job_detail/b8fc960ddb8abe550nx53dW4GFNV.html",
+      "title": "多模态大模型业务质检",
+      "salary": "10-15K",
+      "company": "咯拉树",
+      "area": "深圳·宝安区·西乡",
+      "tags": [
+        "经验不限",
+        "本科"
+      ],
+      "raw": "多模态大模型业务质检 10-15K 咯拉树 深圳·宝安区·西乡",
+      "keyword": "大模型",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "08b8ccc4d19105ba03F439q5EFpZ",
+      "url": "https://www.zhipin.com/job_detail/08b8ccc4d19105ba03F439q5EFpZ.html",
+      "title": "大模型应用开发工程师",
+      "salary": "12-24K",
+      "company": "纽尔",
+      "area": "深圳·罗湖区·东湖",
+      "tags": [
+        "1-3年",
+        "本科",
+        "LangGraph",
+        "LLama",
+        "LangChain",
+        "AI应用实战开发",
+        "OpenAI",
+        "智能客服、AI工作"
+      ],
+      "raw": "大模型应用开发工程师 12-24K 纽尔 深圳·罗湖区·东湖",
+      "keyword": "大模型",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "8a2853dafadbf0b30nxy2ti9ElJQ",
+      "url": "https://www.zhipin.com/job_detail/8a2853dafadbf0b30nxy2ti9ElJQ.html",
+      "title": "AI Token / 大模型 API 大客户销售",
+      "salary": "11-22K·14薪",
+      "company": "宸胥科技",
+      "area": "深圳·宝安区·新安",
+      "tags": [
+        "1-3年",
+        "大专",
+        "加班补助",
+        "年终奖",
+        "定期体检",
+        "五险一金"
+      ],
+      "raw": "AI Token / 大模型 API 大客户销售 11-22K·14薪 宸胥科技 深圳·宝安区·新安",
+      "keyword": "大模型",
+      "reject": "命中排除词「销售」"
+    },
+    {
+      "id": "a3ac60db46b9eb660ndy2N69FVNR",
+      "url": "https://www.zhipin.com/job_detail/a3ac60db46b9eb660ndy2N69FVNR.html",
+      "title": "大模型工程实习生",
+      "salary": "300-400元/天",
+      "company": "RAK瑞科慧联",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "5天/周",
+        "3个月",
+        "五险一金",
+        "补充医疗保险",
+        "节日福利",
+        "定期体检",
+        "年终奖"
+      ],
+      "raw": "大模型工程实习生 300-400元/天 RAK瑞科慧联 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "2bbea95e6c6c538503Z52Nq4FlVT",
+      "url": "https://www.zhipin.com/job_detail/2bbea95e6c6c538503Z52Nq4FlVT.html",
+      "title": "多模态大模型 算法工程师",
+      "salary": "400-600元/天",
+      "company": "领智寻知",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "多模态",
+        "GNN",
+        "深度学习",
+        "大模型算法",
+        "多模态算法"
+      ],
+      "raw": "多模态大模型 算法工程师 400-600元/天 领智寻知 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": null
+    },
+    {
+      "id": "e79acd52f8c654bb0nN72Ni9FFZU",
+      "url": "https://www.zhipin.com/job_detail/e79acd52f8c654bb0nN72Ni9FFZU.html",
+      "title": "大模型销售",
+      "salary": "25-50K",
+      "company": "瑞云科技",
+      "area": "深圳·南山区·前海",
+      "tags": [
+        "经验不限",
+        "本科",
+        "节假日加班费",
+        "底薪加提成",
+        "五险一金",
+        "绩效奖金",
+        "加班补助",
+        "定期体检"
+      ],
+      "raw": "大模型销售 25-50K 瑞云科技 深圳·南山区·前海",
+      "keyword": "大模型",
+      "reject": "命中排除词「销售」"
+    },
+    {
+      "id": "fb3bc83db15ccfa40nx70tq9F1ZY",
+      "url": "https://www.zhipin.com/job_detail/fb3bc83db15ccfa40nx70tq9F1ZY.html",
+      "title": "AI大模型销售",
+      "salary": "11-20K",
+      "company": "龙猫传媒",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "大专",
+        "AI大模型销售",
+        "五险一金",
+        "员工旅游",
+        "全勤奖",
+        "意外险",
+        "带薪年假"
+      ],
+      "raw": "AI大模型销售 11-20K 龙猫传媒 深圳·南山区·科技园",
+      "keyword": "大模型",
+      "reject": "命中排除词「销售」"
+    },
+    {
+      "id": "be6f98a694b7cedc0nx-2Nq7EFpR",
+      "url": "https://www.zhipin.com/job_detail/be6f98a694b7cedc0nx-2Nq7EFpR.html",
+      "title": "AI Agent 应用实习生（品牌营销方向）",
+      "salary": "250-300元/天",
+      "company": "精一集团",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "本科",
+        "7天/周",
+        "6个月",
+        "节日福利",
+        "餐补",
+        "有无线网",
+        "五险一金",
+        "包住"
+      ],
+      "raw": "AI Agent 应用实习生（品牌营销方向） 250-300元/天 精一集团 深圳·龙岗区·坂田",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "1d2302a6284fc9940nx50tS7GVZV",
+      "url": "https://www.zhipin.com/job_detail/1d2302a6284fc9940nx50tS7GVZV.html",
+      "title": "AI应用开发实习生（AI剪辑） - 剪映CapCut",
+      "salary": "500-550元/天",
+      "company": "字节跳动",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "5天/周",
+        "4个月",
+        "绩效奖金",
+        "住房补贴",
+        "家庭关爱假",
+        "餐补",
+        "就近租房补贴"
+      ],
+      "raw": "AI应用开发实习生（AI剪辑） - 剪映CapCut 500-550元/天 字节跳动 深圳",
+      "keyword": "AI应用",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "08a7640fdad50a7e0nx92tu5F1VQ",
+      "url": "https://www.zhipin.com/job_detail/08a7640fdad50a7e0nx92tu5F1VQ.html",
+      "title": "ai应用工程师",
+      "salary": "11-20K",
+      "company": "弘程游戏",
+      "area": "深圳·罗湖区·草埔",
+      "tags": [
+        "经验不限",
+        "本科",
+        "员工旅游",
+        "五险一金",
+        "年终奖",
+        "带薪年假",
+        "零食下午茶",
+        "补充医疗保险"
+      ],
+      "raw": "ai应用工程师 11-20K 弘程游戏 深圳·罗湖区·草埔",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "90bca155f8c186dc0nN_09q9GFJS",
+      "url": "https://www.zhipin.com/job_detail/90bca155f8c186dc0nN_09q9GFJS.html",
+      "title": "AI跨境电商应用工程师",
+      "salary": "10-15K·14薪",
+      "company": "火把公司",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "经验不限",
+        "本科",
+        "五险一金",
+        "生日福利",
+        "绩效奖金",
+        "节日福利",
+        "零食下午茶",
+        "股票期权"
+      ],
+      "raw": "AI跨境电商应用工程师 10-15K·14薪 火把公司 深圳·龙岗区·坂田",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "c85133e9b190ca790nx409y-F1pZ",
+      "url": "https://www.zhipin.com/job_detail/c85133e9b190ca790nx409y-F1pZ.html",
+      "title": "Java（ai应用）五险一金-双休",
+      "salary": "8-9K",
+      "company": "深圳网新新思",
+      "area": "深圳·福田区·车公庙",
+      "tags": [
+        "3-5年",
+        "大专",
+        "Java",
+        "MySQL",
+        "Spring",
+        "年终奖",
+        "节日福利",
+        "五险一金"
+      ],
+      "raw": "Java（ai应用）五险一金-双休 8-9K 深圳网新新思 深圳·福田区·车公庙",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "45fc3413e4bb0f7c0nN50tq-GFVV",
+      "url": "https://www.zhipin.com/job_detail/45fc3413e4bb0f7c0nN50tq-GFVV.html",
+      "title": "Ai Agent应用师",
+      "salary": "8-10K",
+      "company": "乐怡集团",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "1-3年",
+        "大专",
+        "绩效奖金",
+        "底薪加提成",
+        "带薪年假",
+        "团建聚餐",
+        "年终奖",
+        "五险"
+      ],
+      "raw": "Ai Agent应用师 8-10K 乐怡集团 深圳·龙岗区·坂田",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "a223f2516a62f5000nx82tm0ElpV",
+      "url": "https://www.zhipin.com/job_detail/a223f2516a62f5000nx82tm0ElpV.html",
+      "title": "AI应用研发实习生",
+      "salary": "150-300元/天",
+      "company": "深圳新辰知序科技",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "5天/周",
+        "6个月",
+        "Golang",
+        "Python",
+        "运维开发经验"
+      ],
+      "raw": "AI应用研发实习生 150-300元/天 深圳新辰知序科技 深圳",
+      "keyword": "AI应用",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "8a5a656e04b888d20nxy39q_FltT",
+      "url": "https://www.zhipin.com/job_detail/8a5a656e04b888d20nxy39q_FltT.html",
+      "title": "ai应用工程师",
+      "salary": "10-15K",
+      "company": "百汇精密",
+      "area": "深圳·宝安区·沙井",
+      "tags": [
+        "经验不限",
+        "大专",
+        "五险一金",
+        "员工旅游",
+        "定期体检",
+        "包吃",
+        "年终奖",
+        "餐补"
+      ],
+      "raw": "ai应用工程师 10-15K 百汇精密 深圳·宝安区·沙井",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "ec84deb2c14a1d2e0nx80tq_FlJS",
+      "url": "https://www.zhipin.com/job_detail/ec84deb2c14a1d2e0nx80tq_FlJS.html",
+      "title": "AI应用研发实习生（居家办公）",
+      "salary": "200-250元/天",
+      "company": "智乐活",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "5天/周",
+        "3个月",
+        "Java",
+        "Python",
+        "AI类产品设计",
+        "绩效奖金",
+        "团建聚餐"
+      ],
+      "raw": "AI应用研发实习生（居家办公） 200-250元/天 智乐活 深圳·南山区·科技园",
+      "keyword": "AI应用",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "d34f0db72be301af0nx839m-F1JT",
+      "url": "https://www.zhipin.com/job_detail/d34f0db72be301af0nx839m-F1JT.html",
+      "title": "AI应用全栈开发工程师",
+      "salary": "14-22K",
+      "company": "智用开物",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "本科"
+      ],
+      "raw": "AI应用全栈开发工程师 14-22K 智用开物 深圳·南山区·科技园",
+      "keyword": "AI应用",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "c17e9e45f44a5baa0nx82tq5F1NR",
+      "url": "https://www.zhipin.com/job_detail/c17e9e45f44a5baa0nx82tq5F1NR.html",
+      "title": "AI 应用讲师",
+      "salary": "100-200元/时",
+      "company": "寰球新途",
+      "area": "深圳·龙岗区·布吉",
+      "tags": [
+        "经验不限",
+        "本科",
+        "节日福利",
+        "绩效奖金",
+        "带薪假",
+        "团建聚餐",
+        "带薪年假",
+        "餐补"
+      ],
+      "raw": "AI 应用讲师 100-200元/时 寰球新途 深圳·龙岗区·布吉",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "a21ecdab0bddcdab0nx-2961F1NV",
+      "url": "https://www.zhipin.com/job_detail/a21ecdab0bddcdab0nx-2961F1NV.html",
+      "title": "AI应用工程师",
+      "salary": "10-15K",
+      "company": "盒子科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "在校/应届",
+        "本科",
+        "生日福利",
+        "节日福利",
+        "年终奖",
+        "股票期权",
+        "法定节假日三薪",
+        "加班补助"
+      ],
+      "raw": "AI应用工程师 10-15K 盒子科技 深圳·南山区·科技园",
+      "keyword": "AI应用",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "d9e4ba9fb8e2b04e0nxy2Nu8E1ZT",
+      "url": "https://www.zhipin.com/job_detail/d9e4ba9fb8e2b04e0nxy2Nu8E1ZT.html",
+      "title": "AI应用运营",
+      "salary": "16-17K",
+      "company": "理想科技",
+      "area": "深圳·福田区·上步",
+      "tags": [
+        "3-5年",
+        "大专",
+        "五险一金"
+      ],
+      "raw": "AI应用运营 16-17K 理想科技 深圳·福田区·上步",
+      "keyword": "AI应用",
+      "reject": null
+    },
+    {
+      "id": "a3f931e2ce162c440nN92tW6GVNZ",
+      "url": "https://www.zhipin.com/job_detail/a3f931e2ce162c440nN92tW6GVNZ.html",
+      "title": "AI视频应用实习生",
+      "salary": "250-280元/天",
+      "company": "吉比特",
+      "area": "深圳·南山区·蛇口",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "现场办公",
+        "周末双休",
+        "加班费",
+        "接受无相关经验/技能",
+        "房补"
+      ],
+      "raw": "AI视频应用实习生 250-280元/天 吉比特 深圳·南山区·蛇口",
+      "keyword": "AI应用",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "d1a98efa531dd6a60nx_2ti_EFVW",
+      "url": "https://www.zhipin.com/job_detail/d1a98efa531dd6a60nx_2ti_EFVW.html",
+      "title": "AI应用销售岗",
+      "salary": "15-20K",
+      "company": "深圳市南山区煋朋...",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "经验不限",
+        "大专",
+        "电话销售",
+        "面销/陌拜",
+        "软件/企业服务产品",
+        "对企业/机构（To B）销售经验",
+        "企业（To B）",
+        "面销/陌拜经验"
+      ],
+      "raw": "AI应用销售岗 15-20K 深圳市南山区煋朋... 深圳·南山区·科技园",
+      "keyword": "AI应用",
+      "reject": "命中排除词「销售」"
+    },
+    {
+      "id": "acc0315e39b82cc20nNy0ty5EVFY",
+      "url": "https://www.zhipin.com/job_detail/acc0315e39b82cc20nNy0ty5EVFY.html",
+      "title": "java开发",
+      "salary": "9-14K",
+      "company": "亿佳壹",
+      "area": "深圳·福田区·上步",
+      "tags": [
+        "3-5年",
+        "大专",
+        "Java",
+        "SpringCloud",
+        "MySQL",
+        "Spring"
+      ],
+      "raw": "java开发 9-14K 亿佳壹 深圳·福田区·上步",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "d9c92718f687d2bb0nx92920GVZW",
+      "url": "https://www.zhipin.com/job_detail/d9c92718f687d2bb0nx92920GVZW.html",
+      "title": "Java开发工程师（初级）",
+      "salary": "8-13K",
+      "company": "盒子科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "本科",
+        "Java",
+        "Spring",
+        "SpringCloud",
+        "MyBatis",
+        "MySQL",
+        "股票期权"
+      ],
+      "raw": "Java开发工程师（初级） 8-13K 盒子科技 深圳·南山区·科技园",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "796b266b22d0c44f0nN_3tq4E1NW",
+      "url": "https://www.zhipin.com/job_detail/796b266b22d0c44f0nN_3tq4E1NW.html",
+      "title": "java开发工程师",
+      "salary": "13-26K",
+      "company": "外企德科数字",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "经验不限",
+        "本科",
+        "Java",
+        "C++",
+        "Python",
+        "Spring",
+        "SpringCloud",
+        "MySQL"
+      ],
+      "raw": "java开发工程师 13-26K 外企德科数字 深圳·龙岗区·坂田",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "9fa955594648056c0nN939q_EFtS",
+      "url": "https://www.zhipin.com/job_detail/9fa955594648056c0nN939q_EFtS.html",
+      "title": "java开发——平安项目",
+      "salary": "8-10K",
+      "company": "深圳网新新思",
+      "area": "深圳·福田区·车公庙",
+      "tags": [
+        "3-5年",
+        "大专",
+        "JVM",
+        "Java",
+        "分布式经验",
+        "微服务经验",
+        "SpringCloud",
+        "MySQL"
+      ],
+      "raw": "java开发——平安项目 8-10K 深圳网新新思 深圳·福田区·车公庙",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "dadb5a02439e98760nZ-2d65FVtY",
+      "url": "https://www.zhipin.com/job_detail/dadb5a02439e98760nZ-2d65FVtY.html",
+      "title": "java开发工程师",
+      "salary": "10-15K",
+      "company": "深圳市生行科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "大专",
+        "Java",
+        "MySQL",
+        "Spring",
+        "团建聚餐",
+        "五险一金",
+        "员工旅游"
+      ],
+      "raw": "java开发工程师 10-15K 深圳市生行科技 深圳·南山区·科技园",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "a92decdc5ee7985c0nN_39u0ElRT",
+      "url": "https://www.zhipin.com/job_detail/a92decdc5ee7985c0nN_39u0ElRT.html",
+      "title": "Java开发工程师",
+      "salary": "8-10K·13薪",
+      "company": "深圳市顶级视频设备",
+      "area": "深圳·龙华区·龙华",
+      "tags": [
+        "1-3年",
+        "本科",
+        "Java",
+        "SpringCloud",
+        "Redis",
+        "MySQL",
+        "全勤奖",
+        "加班补助"
+      ],
+      "raw": "Java开发工程师 8-10K·13薪 深圳市顶级视频设备 深圳·龙华区·龙华",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "3c8ec04dc4cea0f80nZ63Nq_EFJS",
+      "url": "https://www.zhipin.com/job_detail/3c8ec04dc4cea0f80nZ63Nq_EFJS.html",
+      "title": "Java开发工程师",
+      "salary": "11-13K",
+      "company": "武汉讯锡云科技",
+      "area": "深圳·福田区·车公庙",
+      "tags": [
+        "5-10年",
+        "大专",
+        "Java",
+        "保险",
+        "MySQL",
+        "Spring"
+      ],
+      "raw": "Java开发工程师 11-13K 武汉讯锡云科技 深圳·福田区·车公庙",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "4f6358578b7e19a30nx_29q_EFNU",
+      "url": "https://www.zhipin.com/job_detail/4f6358578b7e19a30nx_29q_EFNU.html",
+      "title": "Java开发（base深圳罗湖 双休 稳定）",
+      "salary": "9-11K",
+      "company": "大展科技",
+      "area": "深圳·罗湖区·东湖",
+      "tags": [
+        "5-10年",
+        "大专",
+        "Java",
+        "SpringCloud",
+        "MySQL",
+        "MyBatis",
+        "Redis",
+        "Spring"
+      ],
+      "raw": "Java开发（base深圳罗湖 双休 稳定） 9-11K 大展科技 深圳·罗湖区·东湖",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "8e11700628dfb8500nx929y6EVRX",
+      "url": "https://www.zhipin.com/job_detail/8e11700628dfb8500nx929y6EVRX.html",
+      "title": "java后端开发助理",
+      "salary": "10-15K·14薪",
+      "company": "广州威元科技有限公司",
+      "area": "深圳·宝安区·西乡",
+      "tags": [
+        "3-5年",
+        "本科"
+      ],
+      "raw": "java后端开发助理 10-15K·14薪 广州威元科技有限公司 深圳·宝安区·西乡",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "af494428825f19800nF70tW_EFFS",
+      "url": "https://www.zhipin.com/job_detail/af494428825f19800nF70tW_EFFS.html",
+      "title": "Java开发",
+      "salary": "10-15K",
+      "company": "申朴信息",
+      "area": "深圳·福田区·购物公园",
+      "tags": [
+        "3-5年",
+        "本科",
+        "Java",
+        "SpringCloud",
+        "MySQL",
+        "Redis",
+        "Spring",
+        "节日福利"
+      ],
+      "raw": "Java开发 10-15K 申朴信息 深圳·福田区·购物公园",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "4cc5c94c957d1d041Hx539i5GFtR",
+      "url": "https://www.zhipin.com/job_detail/4cc5c94c957d1d041Hx539i5GFtR.html",
+      "title": "java开发工程师",
+      "salary": "7-12K",
+      "company": "畅飞扬CFY",
+      "area": "深圳·龙岗区·横岗",
+      "tags": [
+        "1-3年",
+        "本科",
+        "Java",
+        "大数据经验",
+        "音视频经验",
+        "Tomcat",
+        "分布式经验",
+        "MySQL"
+      ],
+      "raw": "java开发工程师 7-12K 畅飞扬CFY 深圳·龙岗区·横岗",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "61710eed72e8f9740nx729i8FlZR",
+      "url": "https://www.zhipin.com/job_detail/61710eed72e8f9740nx729i8FlZR.html",
+      "title": "Java开发工程师",
+      "salary": "13-18K·13薪",
+      "company": "博彦科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "本科",
+        "Java",
+        "Spring",
+        "SpringCloud",
+        "MySQL",
+        "分布式经验",
+        "微服务经验"
+      ],
+      "raw": "Java开发工程师 13-18K·13薪 博彦科技 深圳·南山区·科技园",
+      "keyword": "Java开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "da6097dce279d5980nF70tu0FlJT",
+      "url": "https://www.zhipin.com/job_detail/da6097dce279d5980nF70tu0FlJT.html",
+      "title": "java开发",
+      "salary": "11-16K",
+      "company": "北京软通动力云计...",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "5-10年",
+        "本科",
+        "MAVEN",
+        "Jenkins",
+        "Java",
+        "不接受居家办公",
+        "NoSQL",
+        "Git"
+      ],
+      "raw": "java开发 11-16K 北京软通动力云计... 深圳·龙岗区·坂田",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "f951c0eaf5f82fce0ndy0tm5ElJQ",
+      "url": "https://www.zhipin.com/job_detail/f951c0eaf5f82fce0ndy0tm5ElJQ.html",
+      "title": "java开发",
+      "salary": "15-30K",
+      "company": "上海万宝盛华信息科技",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "经验不限",
+        "本科"
+      ],
+      "raw": "java开发 15-30K 上海万宝盛华信息科技 深圳·龙岗区·坂田",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "dbf98e474c80974f1HVz2dS9EVZW",
+      "url": "https://www.zhipin.com/job_detail/dbf98e474c80974f1HVz2dS9EVZW.html",
+      "title": "java开发工程师",
+      "salary": "11-16K",
+      "company": "中软国际",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "3-5年",
+        "本科",
+        "Java",
+        "分布式经验",
+        "微服务经验",
+        "SpringCloud",
+        "MySQL",
+        "云计算经验"
+      ],
+      "raw": "java开发工程师 11-16K 中软国际 深圳·龙岗区·坂田",
+      "keyword": "Java开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "074231607783f6930nx43dm-GVVY",
+      "url": "https://www.zhipin.com/job_detail/074231607783f6930nx43dm-GVVY.html",
+      "title": "测试（加班少，线上面试）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "3-5年",
+        "本科",
+        "自动化测试经验",
+        "Java",
+        "测试工作经验"
+      ],
+      "raw": "测试（加班少，线上面试） -K 3-5年 本科 自动化测试经验 Java 测试工作经验",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "d53112dfdca8d5440nx_2dm_F1BX",
+      "url": "https://www.zhipin.com/job_detail/d53112dfdca8d5440nx_2dm_F1BX.html",
+      "title": "测试工程师",
+      "salary": "",
+      "company": "-K·薪",
+      "area": "-K·薪",
+      "tags": [
+        "-K·薪",
+        "1-3年",
+        "本科"
+      ],
+      "raw": "测试工程师 -K·薪 1-3年 本科",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "0db1e44d21ba21b70nJz09i8GFZY",
+      "url": "https://www.zhipin.com/job_detail/0db1e44d21ba21b70nJz09i8GFZY.html",
+      "title": "测试工程师",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "1-3年",
+        "大专",
+        "功能测试",
+        "性能测试",
+        "Java"
+      ],
+      "raw": "测试工程师 -K 1-3年 大专 功能测试 性能测试 Java",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "a21be96b02df135e03192tW0EVdV",
+      "url": "https://www.zhipin.com/job_detail/a21be96b02df135e03192tW0EVdV.html",
+      "title": "基金测试-现场",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "3-5年",
+        "本科",
+        "自动化测试",
+        "投资",
+        "恒生赢时胜"
+      ],
+      "raw": "基金测试-现场 -K 3-5年 本科 自动化测试 投资 恒生赢时胜",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "c39657462a095d731nJ409q8EFZT",
+      "url": "https://www.zhipin.com/job_detail/c39657462a095d731nJ409q8EFZT.html",
+      "title": "软件测试（金融/证券/科技）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "5-10年",
+        "本科",
+        "自动化测试",
+        "性能测试",
+        "功能测试"
+      ],
+      "raw": "软件测试（金融/证券/科技） -K 5-10年 本科 自动化测试 性能测试 功能测试",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "b65bec2a676c24d00nx909i1FFtT",
+      "url": "https://www.zhipin.com/job_detail/b65bec2a676c24d00nx909i1FFtT.html",
+      "title": "世界模型-评测/出题（游戏设计类/双休）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "1-3年",
+        "本科",
+        "3D",
+        "设计",
+        "游戏"
+      ],
+      "raw": "世界模型-评测/出题（游戏设计类/双休） -K 1-3年 本科 3D 设计 游戏",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "575d305640f8d5680nB92dq-F1ZV",
+      "url": "https://www.zhipin.com/job_detail/575d305640f8d5680nB92dq-F1ZV.html",
+      "title": "测试工程师（券商驻场/交易系统）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "3-5年",
+        "大专"
+      ],
+      "raw": "测试工程师（券商驻场/交易系统） -K 3-5年 大专",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "d8012e2f8ddc9e650nx52ty9FFtW",
+      "url": "https://www.zhipin.com/job_detail/d8012e2f8ddc9e650nx52ty9FFtW.html",
+      "title": "测试工程师【中高级】",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "3-5年",
+        "本科",
+        "功能测试",
+        "JMeter",
+        "Python"
+      ],
+      "raw": "测试工程师【中高级】 -K 3-5年 本科 功能测试 JMeter Python",
+      "keyword": "Python",
+      "reject": null
+    },
+    {
+      "id": "cbb032f1678447f10nxy2tW6ElpU",
+      "url": "https://www.zhipin.com/job_detail/cbb032f1678447f10nxy2tW6ElpU.html",
+      "title": "测试工程师（双休+大平台）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "3-5年",
+        "本科",
+        "Java",
+        "自动化测试",
+        "性能测试"
+      ],
+      "raw": "测试工程师（双休+大平台） -K 3-5年 本科 Java 自动化测试 性能测试",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "396b15935a5ab67e0nZ63d-7E1RY",
+      "url": "https://www.zhipin.com/job_detail/396b15935a5ab67e0nZ63d-7E1RY.html",
+      "title": "全栈开发工程师",
+      "salary": "",
+      "company": "-K·薪",
+      "area": "-K·薪",
+      "tags": [
+        "-K·薪",
+        "3-5年",
+        "本科",
+        "Golang",
+        "后端开发经验",
+        "全栈侧重后端"
+      ],
+      "raw": "全栈开发工程师 -K·薪 3-5年 本科 Golang 后端开发经验 全栈侧重后端",
+      "keyword": "Python",
+      "reject": "不在深圳（-K·薪）"
+    },
+    {
+      "id": "8ca323bc03a8ddef0nx92NS5FVJS",
+      "url": "https://www.zhipin.com/job_detail/8ca323bc03a8ddef0nx92NS5FVJS.html",
+      "title": "wifi软件测试工程师",
+      "salary": "",
+      "company": "-K·薪",
+      "area": "-K·薪",
+      "tags": [
+        "-K·薪",
+        "3-5年",
+        "本科",
+        "传输协议",
+        "wifi"
+      ],
+      "raw": "wifi软件测试工程师 -K·薪 3-5年 本科 传输协议 wifi",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "0311237e31a49a6f0nx83d29FVFX",
+      "url": "https://www.zhipin.com/job_detail/0311237e31a49a6f0nx83d29FVFX.html",
+      "title": "笔电订单测试工程师（双休+食堂餐补）",
+      "salary": "",
+      "company": "-K·薪",
+      "area": "-K·薪",
+      "tags": [
+        "-K·薪",
+        "1-3年",
+        "本科",
+        "测试工作经验",
+        "性能测试"
+      ],
+      "raw": "笔电订单测试工程师（双休+食堂餐补） -K·薪 1-3年 本科 测试工作经验 iOS/Android测试经验 性能测试",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "2097af2d511269060nN62965GFVQ",
+      "url": "https://www.zhipin.com/job_detail/2097af2d511269060nN62965GFVQ.html",
+      "title": "前端页面美学标注员（外派腾讯）",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "1年以内",
+        "本科"
+      ],
+      "raw": "前端页面美学标注员（外派腾讯） -K 1年以内 本科",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "66a9f3050854733a0nx72tS5FldT",
+      "url": "https://www.zhipin.com/job_detail/66a9f3050854733a0nx72tS5FldT.html",
+      "title": "AI测试工程师",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "1-3年",
+        "本科",
+        "机器学习",
+        "ai"
+      ],
+      "raw": "AI测试工程师 -K 1-3年 本科 机器学习 ai",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "84f2aa6342c5dc930nx63dy6ElBV",
+      "url": "https://www.zhipin.com/job_detail/84f2aa6342c5dc930nx63dy6ElBV.html",
+      "title": "金融银行测试工程师",
+      "salary": "",
+      "company": "-K",
+      "area": "",
+      "tags": [
+        "-K",
+        "5-10年",
+        "本科",
+        "银行、存款、公共"
+      ],
+      "raw": "金融银行测试工程师 -K 5-10年 本科 银行、存款、公共",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "https://www.zhipin.com/job_detail/",
+      "url": "https://www.zhipin.com/job_detail/",
+      "title": "职位搜索",
+      "salary": "",
+      "company": "BOSS直聘APP",
+      "area": "",
+      "tags": [
+        "BOSS直聘APP",
+        "直品公益基金会",
+        "求职技巧"
+      ],
+      "raw": "职位搜索 BOSS直聘APP 投资者关系 Investor Relations 直品公益基金会 求职技巧",
+      "keyword": "Python",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "e42102d4aa7f94270nVy3dq4GFBV",
+      "url": "https://www.zhipin.com/job_detail/e42102d4aa7f94270nVy3dq4GFBV.html",
+      "title": "后端开发-SZ-日常实习",
+      "salary": "400-450元/天",
+      "company": "Shopee",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "五险一金",
+        "补充医疗保险",
+        "定期体检",
+        "带薪年假",
+        "零食下午茶"
+      ],
+      "raw": "后端开发-SZ-日常实习 400-450元/天 Shopee 深圳·南山区·科技园",
+      "keyword": "后端开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "34181dfdcf3939a50nxy2du9GVVT",
+      "url": "https://www.zhipin.com/job_detail/34181dfdcf3939a50nxy2du9GVVT.html",
+      "title": "28届实习可转正 软件开发工程师（后端）",
+      "salary": "100-200元/天",
+      "company": "海塞姆科技",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "4天/周",
+        "6个月",
+        "Java",
+        "物联网经验",
+        "大数据经验",
+        "Docker",
+        "MySQL"
+      ],
+      "raw": "28届实习可转正 软件开发工程师（后端） 100-200元/天 海塞姆科技 深圳",
+      "keyword": "后端开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "0f34c96a6486792f0nN93dy4FlZZ",
+      "url": "https://www.zhipin.com/job_detail/0f34c96a6486792f0nN93dy4FlZZ.html",
+      "title": "后端开发实习生（日常实习）- Seed产品研发",
+      "salary": "490-500元/天",
+      "company": "字节跳动",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "5个月",
+        "Golang",
+        "Java",
+        "计算机相关专业",
+        "稳定性相关平台",
+        "就近租房补贴"
+      ],
+      "raw": "后端开发实习生（日常实习）- Seed产品研发 490-500元/天 字节跳动 深圳·南山区·科技园",
+      "keyword": "后端开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "87dfe82b241ff7930nZ93N2-F1tV",
+      "url": "https://www.zhipin.com/job_detail/87dfe82b241ff7930nZ93N2-F1tV.html",
+      "title": "Java后端开发架构（双休+周末2倍加班）",
+      "salary": "23-45K·13薪",
+      "company": "北京某大型人力资源服务公司",
+      "area": "深圳",
+      "tags": [
+        "经验不限",
+        "本科",
+        "Java",
+        "SpringCloud",
+        "微服务架构",
+        "SpringMVC",
+        "SpringBoot",
+        "Spring"
+      ],
+      "raw": "Java后端开发架构（双休+周末2倍加班） 23-45K·13薪 北京某大型人力资源服务公司 深圳",
+      "keyword": "后端开发",
+      "reject": null
+    },
+    {
+      "id": "f89a83eb307e82740nF82dS4FlpW",
+      "url": "https://www.zhipin.com/job_detail/f89a83eb307e82740nF82dS4FlpW.html",
+      "title": "后端开发工程师",
+      "salary": "10-15K",
+      "company": "万宝盛华",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "1-3年",
+        "本科",
+        "Java",
+        "C++",
+        "C",
+        "分布式经验",
+        "周末双休",
+        "计算机相关专业"
+      ],
+      "raw": "后端开发工程师 10-15K 万宝盛华 深圳·龙岗区·坂田",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "ff5a316c1ecee83933dy29u0EFA~",
+      "url": "https://www.zhipin.com/job_detail/ff5a316c1ecee83933dy29u0EFA~.html",
+      "title": "后端开发实习生（PHP/Python)",
+      "salary": "150-200元/天",
+      "company": "点趣网络",
+      "area": "深圳·南山区·西丽",
+      "tags": [
+        "大专",
+        "5天/周",
+        "6个月",
+        "团队管理经验",
+        "C++",
+        "全栈开发",
+        "C语言",
+        "Socket技术"
+      ],
+      "raw": "后端开发实习生（PHP/Python) 150-200元/天 点趣网络 深圳·南山区·西丽",
+      "keyword": "后端开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "6279cebf36f634a90nJ52d--EFtS",
+      "url": "https://www.zhipin.com/job_detail/6279cebf36f634a90nJ52d--EFtS.html",
+      "title": "后端开发实习生—有转正机会",
+      "salary": "180-200元/天",
+      "company": "ONES",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "4天/周",
+        "4个月",
+        "Golang",
+        "Java",
+        "计算机相关专业",
+        "数据迁移",
+        "英语读写能力良好"
+      ],
+      "raw": "后端开发实习生—有转正机会 180-200元/天 ONES 深圳",
+      "keyword": "后端开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "2ae45f9b108b2fc50nx82d66ElZT",
+      "url": "https://www.zhipin.com/job_detail/2ae45f9b108b2fc50nx82d66ElZT.html",
+      "title": "后端开发实习生",
+      "salary": "500-1000元/天",
+      "company": "北京坤启无限科技",
+      "area": "深圳·福田区·车公庙",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "包吃",
+        "团建聚餐",
+        "股票期权",
+        "意外险",
+        "绩效奖金"
+      ],
+      "raw": "后端开发实习生 500-1000元/天 北京坤启无限科技 深圳·福田区·车公庙",
+      "keyword": "后端开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "db1747168af9f4180nx_2dW_FVNT",
+      "url": "https://www.zhipin.com/job_detail/db1747168af9f4180nx_2dW_FVNT.html",
+      "title": "java后端开发工程师",
+      "salary": "11-13K",
+      "company": "深圳网新新思",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "本科",
+        "Java",
+        "Elasticsearch",
+        "SpringCloud",
+        "MySQL",
+        "Kafka",
+        "Redis"
+      ],
+      "raw": "java后端开发工程师 11-13K 深圳网新新思 深圳·南山区·科技园",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "5ea9ecd93ea675640nxy29i5EVRW",
+      "url": "https://www.zhipin.com/job_detail/5ea9ecd93ea675640nxy29i5EVRW.html",
+      "title": "后端开发",
+      "salary": "8-9K",
+      "company": "深圳市镜语科技",
+      "area": "深圳·龙岗区·横岗",
+      "tags": [
+        "1-3年",
+        "本科"
+      ],
+      "raw": "后端开发 8-9K 深圳市镜语科技 深圳·龙岗区·横岗",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "e642f2f637b1f09603J_09S-E1tW",
+      "url": "https://www.zhipin.com/job_detail/e642f2f637b1f09603J_09S-E1tW.html",
+      "title": "后端开发（go/python）",
+      "salary": "10-13K",
+      "company": "中软国际",
+      "area": "深圳·宝安区·西乡",
+      "tags": [
+        "1-3年",
+        "大专",
+        "Golang",
+        "运维",
+        "Python",
+        "定期体检",
+        "零食下午茶",
+        "节假日加班费"
+      ],
+      "raw": "后端开发（go/python） 10-13K 中软国际 深圳·宝安区·西乡",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "7e99278878d0211e0nV80tm8FldX",
+      "url": "https://www.zhipin.com/job_detail/7e99278878d0211e0nV80tm8FldX.html",
+      "title": "python后端开发工程师（接受Java转Python）",
+      "salary": "11-20K",
+      "company": "翼果科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "本科",
+        "节日福利",
+        "五险一金",
+        "员工旅游",
+        "股票期权",
+        "带薪年假",
+        "交通补助"
+      ],
+      "raw": "python后端开发工程师（接受Java转Python） 11-20K 翼果科技 深圳·南山区·科技园",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "a30a1dbd5cf1a3610nx909-9GFVX",
+      "url": "https://www.zhipin.com/job_detail/a30a1dbd5cf1a3610nx909-9GFVX.html",
+      "title": "后端开发工程师",
+      "salary": "13-15K",
+      "company": "深德科",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "学历不限",
+        "Java",
+        "Docker",
+        "SpringCloud",
+        "MySQL",
+        "Kafka",
+        "MyBatis"
+      ],
+      "raw": "后端开发工程师 13-15K 深德科 深圳·南山区·科技园",
+      "keyword": "后端开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "52b8bf6f9c69ae180nx_2tW6EldS",
+      "url": "https://www.zhipin.com/job_detail/52b8bf6f9c69ae180nx_2tW6EldS.html",
+      "title": "Java后端开发工程师（AI智能体工具研发）",
+      "salary": "15-25K",
+      "company": "赤子网络",
+      "area": "深圳",
+      "tags": [
+        "3-5年",
+        "本科",
+        "Java",
+        "Nginx",
+        "SpringCloud",
+        "Spring",
+        "Redis",
+        "分布式经验"
+      ],
+      "raw": "Java后端开发工程师（AI智能体工具研发） 15-25K 赤子网络 深圳",
+      "keyword": "后端开发",
+      "reject": null
+    },
+    {
+      "id": "b02a121c65411bbd0nx52d28FlFV",
+      "url": "https://www.zhipin.com/job_detail/b02a121c65411bbd0nx52d28FlFV.html",
+      "title": "金融科技 - 测试开发工程师",
+      "salary": "25-40K·16薪",
+      "company": "深圳芝麻甜心智能科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "5-10年",
+        "本科",
+        "五险一金",
+        "生日假",
+        "带薪病假",
+        "福利年假",
+        "司龄假",
+        "交通补助"
+      ],
+      "raw": "金融科技 - 测试开发工程师 25-40K·16薪 深圳芝麻甜心智能科技 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": null
+    },
+    {
+      "id": "fa5a4377c34acf510nx73tq4F1VV",
+      "url": "https://www.zhipin.com/job_detail/fa5a4377c34acf510nx73tq4F1VV.html",
+      "title": "测试工程师 27届校招-制造-深圳(J14241)",
+      "salary": "8-10K·14薪",
+      "company": "深圳市广和通",
+      "area": "深圳·龙华区·龙华",
+      "tags": [
+        "在校/应届",
+        "本科",
+        "通讯补贴",
+        "五险一金",
+        "零食下午茶",
+        "员工旅游",
+        "带薪年假",
+        "加班补助"
+      ],
+      "raw": "测试工程师 27届校招-制造-深圳(J14241) 8-10K·14薪 深圳市广和通 深圳·龙华区·龙华",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "effa0201e25329e40nJ52Nm-F1ZY",
+      "url": "https://www.zhipin.com/job_detail/effa0201e25329e40nJ52Nm-F1ZY.html",
+      "title": "深圳测试开发（双休/线上面试/导师）",
+      "salary": "15-25K·15薪",
+      "company": "某大型知名计算机软件公司",
+      "area": "深圳",
+      "tags": [
+        "经验不限",
+        "本科",
+        "功能测试",
+        "性能测试",
+        "Python",
+        "Java",
+        "计算机相关专业",
+        "测试工作经验"
+      ],
+      "raw": "深圳测试开发（双休/线上面试/导师） 15-25K·15薪 某大型知名计算机软件公司 深圳",
+      "keyword": "测试开发",
+      "reject": null
+    },
+    {
+      "id": "66a3bc41dfb779ca1HR82t-9E1FZ",
+      "url": "https://www.zhipin.com/job_detail/66a3bc41dfb779ca1HR82t-9E1FZ.html",
+      "title": "PCBA测试工程师",
+      "salary": "6-11K",
+      "company": "深圳腾欣电子科技",
+      "area": "深圳·宝安区·沙井",
+      "tags": [
+        "1-3年",
+        "大专",
+        "性能测试",
+        "功能测试",
+        "嵌入式测试",
+        "年终奖",
+        "意外险"
+      ],
+      "raw": "PCBA测试工程师 6-11K 深圳腾欣电子科技 深圳·宝安区·沙井",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "cf7b643bdf4b2b150nJ_3dm0EldQ",
+      "url": "https://www.zhipin.com/job_detail/cf7b643bdf4b2b150nJ_3dm0EldQ.html",
+      "title": "测试工程师（驻场开发/兼职）",
+      "salary": "7000-10000元/月",
+      "company": "极联股份",
+      "area": "深圳·南山区·西丽",
+      "tags": [
+        "3-5年",
+        "大专",
+        "五险一金",
+        "带薪年假",
+        "节日福利",
+        "零食下午茶",
+        "全勤奖"
+      ],
+      "raw": "测试工程师（驻场开发/兼职） 7000-10000元/月 极联股份 深圳·南山区·西丽",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "314bd2168c73fd170nVy2di5FFBV",
+      "url": "https://www.zhipin.com/job_detail/314bd2168c73fd170nVy2di5FFBV.html",
+      "title": "测试开发工程师-SZ-日常实习",
+      "salary": "400-450元/天",
+      "company": "Shopee",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "五险一金",
+        "零食下午茶",
+        "补充医疗保险",
+        "带薪年假",
+        "定期体检"
+      ],
+      "raw": "测试开发工程师-SZ-日常实习 400-450元/天 Shopee 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "68e751e72f5b7cf60nx-0ti8FVpT",
+      "url": "https://www.zhipin.com/job_detail/68e751e72f5b7cf60nx-0ti8FVpT.html",
+      "title": "测试开发工程师",
+      "salary": "8-12K",
+      "company": "嘉为科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "在校/应届",
+        "本科",
+        "年终奖",
+        "股票期权",
+        "节日福利",
+        "带薪年假",
+        "生日福利",
+        "绩效奖金"
+      ],
+      "raw": "测试开发工程师 8-12K 嘉为科技 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "865435187330838c03J93dS6EFBQ",
+      "url": "https://www.zhipin.com/job_detail/865435187330838c03J93dS6EFBQ.html",
+      "title": "测试开发工程师（大厂+待遇佳+福利优）",
+      "salary": "11-18K",
+      "company": "上海瑞应人才科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "本科",
+        "Python",
+        "带薪年假",
+        "年终奖",
+        "五险一金"
+      ],
+      "raw": "测试开发工程师（大厂+待遇佳+福利优） 11-18K 上海瑞应人才科技 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "540aceeef97336b20nN82dm5GFdS",
+      "url": "https://www.zhipin.com/job_detail/540aceeef97336b20nN82dm5GFdS.html",
+      "title": "测试工程师（具身智能）",
+      "salary": "18-25K",
+      "company": "朗毅科技",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "大专",
+        "定期体检",
+        "零食下午茶",
+        "五险一金",
+        "带薪年假",
+        "股票期权",
+        "绩效奖金"
+      ],
+      "raw": "测试工程师（具身智能） 18-25K 朗毅科技 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "2ba9133760467cf10nx40924F1dV",
+      "url": "https://www.zhipin.com/job_detail/2ba9133760467cf10nx40924F1dV.html",
+      "title": "测试开发工程师（深圳）",
+      "salary": "15-30K·14薪",
+      "company": "深圳某大型ICT基础设施公司",
+      "area": "深圳",
+      "tags": [
+        "经验不限",
+        "本科",
+        "功能测试",
+        "性能测试",
+        "自动化测试",
+        "渗透测试",
+        "Python",
+        "Shell"
+      ],
+      "raw": "测试开发工程师（深圳） 15-30K·14薪 深圳某大型ICT基础设施公司 深圳",
+      "keyword": "测试开发",
+      "reject": null
+    },
+    {
+      "id": "760a2e7046d01f560nFz39S1FlJV",
+      "url": "https://www.zhipin.com/job_detail/760a2e7046d01f560nFz39S1FlJV.html",
+      "title": "测试工程师",
+      "salary": "10-15K·14薪",
+      "company": "进门",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "本科",
+        "功能测试",
+        "性能测试",
+        "自动化测试",
+        "Java",
+        "Python",
+        "计算机相关专业"
+      ],
+      "raw": "测试工程师 10-15K·14薪 进门 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "0a779f88efada02d0nN92Nm6FVpR",
+      "url": "https://www.zhipin.com/job_detail/0a779f88efada02d0nN92Nm6FVpR.html",
+      "title": "【27届校招/互联网大厂】测试开发",
+      "salary": "20-35K",
+      "company": "某大型互联网上市公司",
+      "area": "深圳",
+      "tags": [
+        "在校/应届",
+        "本科",
+        "补充医疗保险",
+        "加班补助",
+        "交通补助",
+        "住房补贴",
+        "五险一金",
+        "零食下午茶"
+      ],
+      "raw": "【27届校招/互联网大厂】测试开发 20-35K 某大型互联网上市公司 深圳",
+      "keyword": "测试开发",
+      "reject": null
+    },
+    {
+      "id": "bc59441607acec390nx80ti_F1VR",
+      "url": "https://www.zhipin.com/job_detail/bc59441607acec390nx80ti_F1VR.html",
+      "title": "测试工程师",
+      "salary": "15-20K",
+      "company": "易能时代",
+      "area": "深圳·宝安区·西乡",
+      "tags": [
+        "3-5年",
+        "本科",
+        "节假日加班费",
+        "带薪年假",
+        "保底工资",
+        "底薪加提成",
+        "团建聚餐",
+        "股票期权"
+      ],
+      "raw": "测试工程师 15-20K 易能时代 深圳·宝安区·西乡",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "baf24e23a0000e330nN80t-4F1NS",
+      "url": "https://www.zhipin.com/job_detail/baf24e23a0000e330nN80t-4F1NS.html",
+      "title": "嵌入式软件测试工程师 AI硬件/蓝牙音频方向",
+      "salary": "12-18K",
+      "company": "信人智能",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "3-5年",
+        "本科",
+        "年终奖",
+        "法定节假日三薪",
+        "带薪年假",
+        "绩效奖金",
+        "补充医疗保险",
+        "员工旅游"
+      ],
+      "raw": "嵌入式软件测试工程师 AI硬件/蓝牙音频方向 12-18K 信人智能 深圳·南山区·科技园",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "3b96f45af45be4b20nFz2ty0FlFT",
+      "url": "https://www.zhipin.com/job_detail/3b96f45af45be4b20nFz2ty0FlFT.html",
+      "title": "测试工程师-接收应届毕业生",
+      "salary": "5-8K",
+      "company": "深讯科检测",
+      "area": "深圳",
+      "tags": [
+        "1年以内",
+        "大专",
+        "年终奖",
+        "全勤奖",
+        "带薪年假",
+        "节日福利",
+        "加班补助",
+        "通讯补贴"
+      ],
+      "raw": "测试工程师-接收应届毕业生 5-8K 深讯科检测 深圳",
+      "keyword": "测试开发",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "0d2ae7ffa0aacecd0nJ_2Nq9EVZT",
+      "url": "https://www.zhipin.com/job_detail/0d2ae7ffa0aacecd0nJ_2Nq9EVZT.html",
+      "title": "大数据分析师",
+      "salary": "7-9K·13薪",
+      "company": "深圳澜笙科技有限公司",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "经验不限",
+        "大专"
+      ],
+      "raw": "大数据分析师 7-9K·13薪 深圳澜笙科技有限公司 深圳·龙岗区·坂田",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "0a3a7b0b9e9a15ae0nN_39u0FVVS",
+      "url": "https://www.zhipin.com/job_detail/0a3a7b0b9e9a15ae0nN_39u0FVVS.html",
+      "title": "数据分析师",
+      "salary": "8-10K·13薪",
+      "company": "深圳市顶级视频设备",
+      "area": "深圳·龙华区·龙华",
+      "tags": [
+        "1-3年",
+        "本科",
+        "全勤奖",
+        "保底工资",
+        "五险一金",
+        "定期体检",
+        "加班补助"
+      ],
+      "raw": "数据分析师 8-10K·13薪 深圳市顶级视频设备 深圳·龙华区·龙华",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "8d4f0ae55888ff570nB_3dW0F1ZY",
+      "url": "https://www.zhipin.com/job_detail/8d4f0ae55888ff570nB_3dW0F1ZY.html",
+      "title": "数据分析实习生",
+      "salary": "180-220元/天",
+      "company": "宜尔康",
+      "area": "深圳·南山区·南油",
+      "tags": [
+        "本科",
+        "5天/周",
+        "6个月",
+        "带薪年假",
+        "员工旅游",
+        "保底工资",
+        "法定节假日三薪",
+        "五险一金"
+      ],
+      "raw": "数据分析实习生 180-220元/天 宜尔康 深圳·南山区·南油",
+      "keyword": "数据分析",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "a2a83059f57de8a403xy09u6E1pW",
+      "url": "https://www.zhipin.com/job_detail/a2a83059f57de8a403xy09u6E1pW.html",
+      "title": "亚马逊需求计划专员/数据分析师/pmc专员",
+      "salary": "10-15K",
+      "company": "粤易科技",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "本科",
+        "法定节假日三薪",
+        "年终奖",
+        "有无线网",
+        "餐补",
+        "节假日加班费",
+        "团建聚餐"
+      ],
+      "raw": "亚马逊需求计划专员/数据分析师/pmc专员 10-15K 粤易科技 深圳",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "02ce0fc8c758106f0nF43di6GFFZ",
+      "url": "https://www.zhipin.com/job_detail/02ce0fc8c758106f0nF43di6GFFZ.html",
+      "title": "数据分析实习生（27届/快速到岗）",
+      "salary": "200-250元/天",
+      "company": "迅雷网络",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "5天/周",
+        "4个月",
+        "生日福利",
+        "带薪年假",
+        "节日福利",
+        "员工旅游",
+        "餐补"
+      ],
+      "raw": "数据分析实习生（27届/快速到岗） 200-250元/天 迅雷网络 深圳",
+      "keyword": "数据分析",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "73273d9f8541ab400nx-29y4E1dV",
+      "url": "https://www.zhipin.com/job_detail/73273d9f8541ab400nx-29y4E1dV.html",
+      "title": "数据分析实习生",
+      "salary": "250-350元/天",
+      "company": "XbotGo",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "星巴克自由",
+        "股票期权",
+        "年终奖",
+        "加班补助",
+        "定期体检"
+      ],
+      "raw": "数据分析实习生 250-350元/天 XbotGo 深圳·南山区·科技园",
+      "keyword": "数据分析",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "5147cf162c8c49cd0nx729-5GFBS",
+      "url": "https://www.zhipin.com/job_detail/5147cf162c8c49cd0nx729-5GFBS.html",
+      "title": "数据统计分析岗",
+      "salary": "7-12K",
+      "company": "润迅通信",
+      "area": "深圳·福田区·上步",
+      "tags": [
+        "经验不限",
+        "本科",
+        "餐补",
+        "住房补贴",
+        "社保",
+        "年终奖",
+        "员工旅游",
+        "零食下午茶"
+      ],
+      "raw": "数据统计分析岗 7-12K 润迅通信 深圳·福田区·上步",
+      "keyword": "数据分析",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "fa2ed26b3ec8d6fb0nN_396_FFFT",
+      "url": "https://www.zhipin.com/job_detail/fa2ed26b3ec8d6fb0nN_396_FFFT.html",
+      "title": "大数据分析实习生（长沙/深圳）",
+      "salary": "200-250元/天",
+      "company": "Anker",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "4天/周",
+        "3个月",
+        "定期体检",
+        "补充医疗保险",
+        "包吃",
+        "零食下午茶",
+        "节日福利"
+      ],
+      "raw": "大数据分析实习生（长沙/深圳） 200-250元/天 Anker 深圳",
+      "keyword": "数据分析",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "bfbca3425f294c340nxy39q6ElZW",
+      "url": "https://www.zhipin.com/job_detail/bfbca3425f294c340nxy39q6ElZW.html",
+      "title": "数据分析师（经营/人效/客户）",
+      "salary": "8-11K",
+      "company": "跨越速运",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "大专",
+        "技术分享会",
+        "食堂",
+        "健身房",
+        "生日假期",
+        "优秀员工",
+        "图书馆"
+      ],
+      "raw": "数据分析师（经营/人效/客户） 8-11K 跨越速运 深圳",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "d27def5f08208b3f0nx80tu8ElJQ",
+      "url": "https://www.zhipin.com/job_detail/d27def5f08208b3f0nx80tu8ElJQ.html",
+      "title": "数据分析（467944）",
+      "salary": "11-14K",
+      "company": "数智国际",
+      "area": "深圳·龙岗区·坂田",
+      "tags": [
+        "经验不限",
+        "学历不限"
+      ],
+      "raw": "数据分析（467944） 11-14K 数智国际 深圳·龙岗区·坂田",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "a30932a1c782d2b40nxy2NS4FFZW",
+      "url": "https://www.zhipin.com/job_detail/a30932a1c782d2b40nxy2NS4FFZW.html",
+      "title": "急招！数据分析师+双休",
+      "salary": "10-14K",
+      "company": "拓保软件",
+      "area": "深圳·福田区·车公庙",
+      "tags": [
+        "3-5年",
+        "本科",
+        "SQL",
+        "Python",
+        "Hive",
+        "Power BI",
+        "数学/统计相关专业",
+        "计算机相关专业"
+      ],
+      "raw": "急招！数据分析师+双休 10-14K 拓保软件 深圳·福田区·车公庙",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "485e6751092dbe210nN72t6_FFNW",
+      "url": "https://www.zhipin.com/job_detail/485e6751092dbe210nN72t6_FFNW.html",
+      "title": "数据分析助理实习生",
+      "salary": "220-250元/天",
+      "company": "HelloTalk",
+      "area": "深圳",
+      "tags": [
+        "本科",
+        "5天/周",
+        "3个月",
+        "SQL",
+        "学习成长",
+        "交通补助",
+        "零食下午茶",
+        "年终奖"
+      ],
+      "raw": "数据分析助理实习生 220-250元/天 HelloTalk 深圳",
+      "keyword": "数据分析",
+      "reject": "命中排除词「实习」"
+    },
+    {
+      "id": "bdf25d4323fc4bd30nJ53N-9F1dZ",
+      "url": "https://www.zhipin.com/job_detail/bdf25d4323fc4bd30nJ53N-9F1dZ.html",
+      "title": "数据分析师（跨境电商、大小周）",
+      "salary": "10-15K",
+      "company": "德启胜",
+      "area": "深圳",
+      "tags": [
+        "1-3年",
+        "大专",
+        "SQL",
+        "Power BI",
+        "Python",
+        "电商/零售行业数据相关经验",
+        "亚马逊",
+        "数据分析"
+      ],
+      "raw": "数据分析师（跨境电商、大小周） 10-15K 德启胜 深圳",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    },
+    {
+      "id": "a607c93264f431890nJ70tS-EVtR",
+      "url": "https://www.zhipin.com/job_detail/a607c93264f431890nJ70tS-EVtR.html",
+      "title": "广告数据策略分析-百度",
+      "salary": "14-18K",
+      "company": "柯莱特集团",
+      "area": "深圳·南山区·科技园",
+      "tags": [
+        "1-3年",
+        "本科",
+        "投放",
+        "广告业务",
+        "投放数据分析",
+        "数据分析/商业分析经验"
+      ],
+      "raw": "广告数据策略分析-百度 14-18K 柯莱特集团 深圳·南山区·科技园",
+      "keyword": "数据分析",
+      "reject": "关键词不匹配"
+    },
+    {
+      "id": "e179f7496b585e760nx-29m8EVBR",
+      "url": "https://www.zhipin.com/job_detail/e179f7496b585e760nx-29m8EVBR.html",
+      "title": "数据分析管培生",
+      "salary": "9-12K·13薪",
+      "company": "深圳易威行科技创新",
+      "area": "深圳·龙华区·民治",
+      "tags": [
+        "经验不限",
+        "本科"
+      ],
+      "raw": "数据分析管培生 9-12K·13薪 深圳易威行科技创新 深圳·龙华区·民治",
+      "keyword": "数据分析",
+      "reject": "薪资低于 15K"
+    }
+  ]
+}
