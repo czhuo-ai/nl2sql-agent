@@ -1,0 +1,934 @@
+{
+  "n": 30,
+  "pass": 8,
+  "accuracy": 0.2667,
+  "retry_recovered": 1,
+  "latency_p50_ms": 2192,
+  "latency_p95_ms": 5079,
+  "tokens": {
+    "prompt": 30716,
+    "completion": 2878,
+    "calls": 60
+  },
+  "model": "glm-4-air",
+  "details": [
+    {
+      "id": "q01",
+      "q": "一共有多少条岗位数据？",
+      "passed": true,
+      "sql": "SELECT COUNT(*) AS total_jobs FROM jobs LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs",
+      "actual_rows": [
+        [
+          119
+        ]
+      ],
+      "gold_rows": [
+        [
+          119
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1699,
+      "answer": "一共有 119 条岗位数据。这表明数据库中目前存储了 119 个不同的岗位信息。"
+    },
+    {
+      "id": "q02",
+      "q": "通过筛选的岗位有多少条？",
+      "passed": true,
+      "sql": "SELECT COUNT(*) AS passed_jobs_count FROM v_passed LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM v_passed",
+      "actual_rows": [
+        [
+          21
+        ]
+      ],
+      "gold_rows": [
+        [
+          21
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1585,
+      "answer": "通过筛选的岗位有 21 条。这表明当前查询条件下共有 21 个岗位符合要求。"
+    },
+    {
+      "id": "q03",
+      "q": "AI 应用方向的岗位最多开到多少 K？",
+      "passed": false,
+      "sql": "SELECT MAX(salary_max_k) AS max_salary_k FROM v_passed WHERE keyword = 'AI应用' LIMIT 200",
+      "gold": "SELECT MAX(salary_max_k) AS max_k FROM jobs WHERE keyword = 'AI应用'",
+      "actual_rows": [
+        [
+          17.0
+        ]
+      ],
+      "gold_rows": [
+        [
+          200.0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 34469,
+      "answer": "AI 应用方向岗位最高薪资为 17K。这表明在当前数据中，AI 应用方向的岗位薪资上限为 17K。"
+    },
+    {
+      "id": "q04",
+      "q": "按关键词分组，每个方向各有多少条岗位？",
+      "passed": false,
+      "sql": "SELECT keyword AS direction, COUNT(*) AS job_count FROM v_passed GROUP BY keyword ORDER BY keyword LIMIT 200",
+      "gold": "SELECT keyword, COUNT(*) AS n FROM jobs GROUP BY keyword ORDER BY n DESC",
+      "actual_rows": [
+        [
+          "AI应用",
+          1
+        ],
+        [
+          "Python",
+          1
+        ],
+        [
+          "后端开发",
+          2
+        ],
+        [
+          "大模型",
+          3
+        ],
+        [
+          "测试开发",
+          4
+        ]
+      ],
+      "gold_rows": [
+        [
+          "Python",
+          16
+        ],
+        [
+          "数据分析",
+          15
+        ],
+        [
+          "算法工程师",
+          15
+        ],
+        [
+          "AI应用",
+          15
+        ],
+        [
+          "Java开发",
+          15
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2199,
+      "answer": "算法工程师有10条岗位，是数量最多的方向；测试开发有4条岗位；大模型有3条岗位；后端开发有2条岗位；AI应用和Python各有1条岗位。这表明算法工程师方向的岗位需求最为集中。"
+    },
+    {
+      "id": "q05",
+      "q": "哪个区的岗位数量最多？",
+      "passed": false,
+      "sql": "SELECT district, COUNT(*) AS count FROM v_passed WHERE district != '' GROUP BY district ORDER BY count DESC LIMIT 1",
+      "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district <> '' GROUP BY district ORDER BY n DESC LIMIT 1",
+      "actual_rows": [
+        [
+          "南山区",
+          4
+        ]
+      ],
+      "gold_rows": [
+        [
+          "南山区",
+          36
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2799,
+      "answer": "南山区有4个岗位，是岗位数量最多的区域。"
+    },
+    {
+      "id": "q06",
+      "q": "南山区和福田区各有多少个岗位？",
+      "passed": false,
+      "sql": "SELECT district, COUNT(*) AS job_count FROM v_passed WHERE district IN ('南山区', '福田区') GROUP BY district LIMIT 200",
+      "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district IN ('南山区','福田区') GROUP BY district ORDER BY district",
+      "actual_rows": [
+        [
+          "南山区",
+          4
+        ],
+        [
+          "福田区",
+          3
+        ]
+      ],
+      "gold_rows": [
+        [
+          "南山区",
+          36
+        ],
+        [
+          "福田区",
+          11
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1717,
+      "answer": "南山区有4个岗位，福田区有3个岗位。南山区的岗位数量比福田区多1个。"
+    },
+    {
+      "id": "q07",
+      "q": "月薪上限超过 30K 的岗位有哪些？给出岗位名和公司",
+      "passed": false,
+      "sql": "SELECT title AS job_title, company AS company_name FROM v_passed WHERE salary_kind = 'monthly' AND salary_max_k > 30 ORDER BY salary_max_k DESC LIMIT 200",
+      "gold": "SELECT title, company FROM jobs WHERE salary_kind = 'monthly' AND salary_max_k > 30 ORDER BY salary_max_k DESC",
+      "actual_rows": [
+        [
+          "VLA/VLM算法工程师",
+          "深圳某大型智能硬件公司"
+        ],
+        [
+          "运筹优化算法工程师",
+          "嘉立创"
+        ],
+        [
+          "具身算法工程师（操控算法）",
+          "深圳市诺因智能"
+        ],
+        [
+          "路径规划算法工程师",
+          "文远知行"
+        ],
+        [
+          "具身Agent算法工程师",
+          "深圳费莫一科技"
+        ]
+      ],
+      "gold_rows": [
+        [
+          "AI 应用讲师",
+          "寰球新途"
+        ],
+        [
+          "VLA/VLM算法工程师",
+          "深圳某大型智能硬件公司"
+        ],
+        [
+          "运筹优化算法工程师",
+          "嘉立创"
+        ],
+        [
+          "具身算法工程师（操控算法）",
+          "深圳市诺因智能"
+        ],
+        [
+          "路径规划算法工程师",
+          "文远知行"
+        ]
+      ],
+      "error": "",
+      "latency_ms": 3734,
+      "answer": "月薪上限超过30K的岗位有8个，包括VLA/VLM算法工程师（深圳某大型智能硬件公司）、运筹优化算法工程师（嘉立创）、具身算法工程师（深圳市诺因智能）、路径规划算法工程师（文远知行）、具身Agent算法工程师（深圳费莫一科技）、Java后端开发架构（北京某大型人力资源服务公司）、金融科技-测试开发工程师（深圳芝麻甜心智能科技）和【27届校招/互联网大厂】测试开发（某大型互联网上市公司）。这些岗位主要集中在算法开发和软件开发领域，且多数位于深圳。"
+    },
+    {
+      "id": "q08",
+      "q": "平均月薪下限是多少 K？只算月薪岗位",
+      "passed": false,
+      "sql": "SELECT AVG(salary_min_k) AS avg_salary_min_k FROM v_passed WHERE salary_kind = 'monthly' LIMIT 200",
+      "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM jobs WHERE salary_kind = 'monthly'",
+      "actual_rows": [
+        [
+          24.444444444444443
+        ]
+      ],
+      "gold_rows": [
+        [
+          14.81
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2088,
+      "answer": "平均月薪下限是 24.44K，这是所有月薪岗位中的最低平均月薪值。"
+    },
+    {
+      "id": "q09",
+      "q": "给全部岗位按薪资下限从高到低排序，列出前 5 条",
+      "passed": false,
+      "sql": "SELECT job_id, title, company, city, district, salary_min_k, salary_max_k, salary_kind, salary_months, daily_min_yuan, daily_max_yuan, keyword, experience, degree, tags_text FROM v_passed ORDER BY salary_min_k DESC NULLS LAST, daily_min_yuan DESC NULLS LAST LIMIT 5",
+      "gold": "SELECT title, company, salary_min_k FROM jobs WHERE salary_min_k IS NOT NULL ORDER BY salary_min_k DESC LIMIT 5",
+      "actual_rows": [
+        [
+          "6d4a6633c7cd13110nJ92dS_GFVY",
+          "VLA/VLM算法工程师",
+          "深圳某大型智能硬件公司",
+          "深圳",
+          "",
+          85.0,
+          110.0,
+          "monthly",
+          16,
+          null,
+          null,
+          "算法工程师",
+          "3-5年",
+          "本科",
+          "3-5年 本科 股票期权 节日福利 团建聚餐 零食下午茶 餐补 带薪年假"
+        ],
+        [
+          "df1b39e1dc8b2ed10nx90t-_ElRZ",
+          "运筹优化算法工程师",
+          "嘉立创",
+          "深圳",
+          "",
+          40.0,
+          60.0,
+          "monthly",
+          14,
+          null,
+          null,
+          "算法工程师",
+          "5-10年",
+          "本科",
+          "5-10年 本科 运筹优化算法 算法工程化经验 Python SQL 带薪年假 加班补助"
+        ],
+        [
+          "70532c93b0301cd80nNy3dy1ElJV",
+          "具身Agent算法工程师",
+          "深圳费莫一科技",
+          "深圳",
+          "",
+          35.0,
+          60.0,
+          "monthly",
+          16,
+          null,
+          null,
+          "算法工程师",
+          "1-3年",
+          "本科",
+          "1-3年 本科 自然语言处理算法 多模态算法 算法工程化经验 强化学习 有无线网 团建聚餐"
+        ],
+        [
+          "8c6e9ca788853aeb0nx909S6ElpQ",
+          "具身算法工程师（操控算法）",
+          "深圳市诺因智能",
+          "深圳",
+          "",
+          30.0,
+          60.0,
+          "monthly",
+          null,
+          null,
+          null,
+          "算法工程师",
+          "1-3年",
+          "本科",
+          "1-3年 本科 C/C++ 机器学习 图像算法 深度学习 算法工程化经验 Python"
+        ],
+        [
+          "c83f013425deea210nJ729S6F1JS",
+          "路径规划算法工程师",
+          "文远知行",
+          "深圳",
+          "南山区",
+          30.0,
+          60.0,
+          "monthly",
+          15,
+          null,
+          null,
+          "算法工程师",
+          "在校/应届",
+          "本科",
+          "在校/应届 本科 深度学习 大模型算法 机器学习 强化学习 C/C++ Python"
+        ]
+      ],
+      "gold_rows": [
+        [
+          "AI 应用讲师",
+          "寰球新途",
+          100.0
+        ],
+        [
+          "VLA/VLM算法工程师",
+          "深圳某大型智能硬件公司",
+          85.0
+        ],
+        [
+          "运筹优化算法工程师",
+          "嘉立创",
+          40.0
+        ],
+        [
+          "具身Agent算法工程师",
+          "深圳费莫一科技",
+          35.0
+        ],
+        [
+          "具身算法工程师（操控算法）",
+          "深圳市诺因智能",
+          30.0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 3242,
+      "answer": "薪资下限最高的前5个岗位分别是：VLA/VLM算法工程师(85.0k)、运筹优化算法工程师(40.0k)、具身Agent算法工程师(35.0k)、具身算法工程师(30.0k)和路径规划算法工程师(30.0k)。这些岗位主要分布在深圳，薪资范围从30k到85k不等，大多要求本科及以上学历。"
+    },
+    {
+      "id": "q10",
+      "q": "要求 3-5 年经验的岗位有多少条？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS count_3_5_years FROM v_passed WHERE experience = '3-5年' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE experience = '3-5年'",
+      "actual_rows": [
+        [
+          6
+        ]
+      ],
+      "gold_rows": [
+        [
+          29
+        ]
+      ],
+      "error": "",
+      "latency_ms": 10674,
+      "answer": "有 6 条要求 3-5 年经验的岗位。这表明在当前数据集中，有 6 个岗位明确要求求职者具备 3 到 5 年的工作经验。"
+    },
+    {
+      "id": "q11",
+      "q": "要求本科的岗位占比是多少？",
+      "passed": false,
+      "sql": "SELECT ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER(), 2) AS percentage FROM v_passed WHERE degree = '本科' LIMIT 200",
+      "gold": "SELECT ROUND(100.0 * SUM(CASE WHEN degree = '本科' THEN 1 ELSE 0 END) / COUNT(*), 1) AS pct FROM jobs",
+      "actual_rows": [
+        [
+          100.0
+        ]
+      ],
+      "gold_rows": [
+        [
+          76.5
+        ]
+      ],
+      "error": "",
+      "latency_ms": 5079,
+      "answer": "本科岗位占比是100.0%，说明所有岗位都要求本科学历。"
+    },
+    {
+      "id": "q12",
+      "q": "被筛掉的岗位里，因为薪资低于 15K 的有多少条？",
+      "passed": true,
+      "sql": "SELECT COUNT(*) AS count FROM jobs WHERE reject_reason = '薪资低于 15K' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE reject_reason = '薪资低于 15K'",
+      "actual_rows": [
+        [
+          33
+        ]
+      ],
+      "gold_rows": [
+        [
+          33
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2747,
+      "answer": "被筛掉的岗位中，有 33 条因为薪资低于 15K。这表明在筛选过程中，有三分之一的岗位因薪资不达标而被排除。"
+    },
+    {
+      "id": "q13",
+      "q": "杭州有多少个岗位？",
+      "passed": true,
+      "sql": "SELECT COUNT(*) AS job_count FROM jobs WHERE city = '杭州' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE city = '杭州'",
+      "actual_rows": [
+        [
+          0
+        ]
+      ],
+      "gold_rows": [
+        [
+          0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1541,
+      "answer": "没有符合条件的岗位。可能需要放宽地区条件或检查岗位名称是否正确。"
+    },
+    {
+      "id": "q14",
+      "q": "哪些岗位标题里带『实习』？列出前 5 条",
+      "passed": false,
+      "sql": "SELECT job_id, title, company, city, district, salary_raw, keyword FROM v_passed WHERE title LIKE '%实习%' ORDER BY job_id LIMIT 5",
+      "gold": "SELECT title FROM jobs WHERE title LIKE '%实习%' LIMIT 5",
+      "actual_rows": [],
+      "gold_rows": [
+        [
+          "具身操作算法工程师实习生"
+        ],
+        [
+          "【日常实习】SSC-算法工程师-供应链方向-SZ"
+        ],
+        [
+          "大模型Agent业务开发实习生-剪映"
+        ],
+        [
+          "多模态大模型算法实习生"
+        ],
+        [
+          "大模型工程实习生"
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2018,
+      "answer": "没有符合条件的岗位。建议尝试放宽搜索条件，比如去掉\"实习\"关键词或搜索更广泛的职位类型。"
+    },
+    {
+      "id": "q15",
+      "q": "五险一金这个标签出现在多少个岗位里？",
+      "passed": true,
+      "sql": "SELECT COUNT(DISTINCT jt.job_id) AS 五险一金岗位数 FROM job_tags jt WHERE jt.tag = '五险一金' LIMIT 200",
+      "gold": "SELECT COUNT(DISTINCT job_id) AS n FROM job_tags WHERE tag = '五险一金'",
+      "actual_rows": [
+        [
+          28
+        ]
+      ],
+      "gold_rows": [
+        [
+          28
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2239,
+      "answer": "有 28 个岗位包含\"五险一金\"标签。这表明在当前数据中，五险一金是较为常见的福利条件。"
+    },
+    {
+      "id": "q16",
+      "q": "同时带 Java 和 本科 标签的岗位有多少条？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS count FROM job_tags WHERE tag = 'Java' INTERSECT SELECT COUNT(*) FROM job_tags WHERE tag = '本科' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM (SELECT job_id FROM job_tags WHERE tag = 'Java' INTERSECT SELECT job_id FROM job_tags WHERE tag = '本科')",
+      "actual_rows": [],
+      "gold_rows": [
+        [
+          20
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1995,
+      "answer": "没有符合条件的岗位，建议尝试放宽条件，如只要求Java或本科标签。"
+    },
+    {
+      "id": "q17",
+      "q": "每个关键词下，通过筛选的岗位平均薪资下限是多少 K？",
+      "passed": true,
+      "sql": "SELECT keyword, AVG(salary_min_k) AS avg_salary_min_k FROM v_passed WHERE salary_kind = 'monthly' GROUP BY keyword ORDER BY keyword LIMIT 200",
+      "gold": "SELECT keyword, ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM v_passed WHERE salary_kind = 'monthly' GROUP BY keyword ORDER BY avg_min_k DESC",
+      "actual_rows": [
+        [
+          "AI应用",
+          16.0
+        ],
+        [
+          "后端开发",
+          19.0
+        ],
+        [
+          "大模型",
+          15.0
+        ],
+        [
+          "测试开发",
+          18.75
+        ],
+        [
+          "算法工程师",
+          29.6
+        ]
+      ],
+      "gold_rows": [
+        [
+          "算法工程师",
+          29.6
+        ],
+        [
+          "后端开发",
+          19.0
+        ],
+        [
+          "测试开发",
+          18.75
+        ],
+        [
+          "AI应用",
+          16.0
+        ],
+        [
+          "大模型",
+          15.0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2850,
+      "answer": "AI应用岗位的平均薪资下限是16.0K，后端开发岗位是19.0K，大模型岗位是15.0K，测试开发岗位是18.75K，算法工程师岗位最高，达到29.6K。这表明算法工程师岗位的薪资水平明显高于其他技术岗位。"
+    },
+    {
+      "id": "q18",
+      "q": "薪资最高的那条岗位是哪个公司？",
+      "passed": false,
+      "sql": "SELECT company, title, salary_max_k AS max_salary_k FROM v_passed WHERE salary_kind = 'monthly' ORDER BY salary_max_k DESC LIMIT 1",
+      "gold": "SELECT company FROM jobs WHERE salary_max_k IS NOT NULL ORDER BY salary_max_k DESC LIMIT 1",
+      "actual_rows": [
+        [
+          "深圳某大型智能硬件公司",
+          "VLA/VLM算法工程师",
+          110.0
+        ]
+      ],
+      "gold_rows": [
+        [
+          "寰球新途"
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1881,
+      "answer": "薪资最高的岗位是深圳某大型智能硬件公司的VLA/VLM算法工程师，薪资为110.0k。这表明该公司在AI算法领域提供了极具竞争力的薪酬待遇。"
+    },
+    {
+      "id": "q19",
+      "q": "日薪岗位有多少条，平均日薪多少？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS daily_job_count, AVG((daily_min_yuan + daily_max_yuan) / 2) AS avg_daily_salary FROM jobs WHERE salary_kind = 'daily' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n, ROUND(AVG(daily_max_yuan), 0) AS avg_daily FROM jobs WHERE salary_kind = 'daily'",
+      "actual_rows": [
+        [
+          24,
+          387.9166666666667
+        ]
+      ],
+      "gold_rows": [
+        [
+          24,
+          448.0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1889,
+      "answer": "日薪岗位有24条，平均日薪为387.92元。这表明市场上存在一定数量的日薪岗位，平均薪资水平接近400元。"
+    },
+    {
+      "id": "q20",
+      "q": "数据分析方向一共有多少条岗位，其中通过筛选的有几条？",
+      "passed": true,
+      "sql": "SELECT COUNT(*) AS total_data_analysis_jobs, (SELECT COUNT(*) FROM v_passed WHERE keyword = '数据分析') AS passed_data_analysis_jobs FROM jobs WHERE keyword = '数据分析' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS total, SUM(CASE WHEN reject_reason = '' THEN 1 ELSE 0 END) AS passed FROM jobs WHERE keyword = '数据分析'",
+      "actual_rows": [
+        [
+          15,
+          0
+        ]
+      ],
+      "gold_rows": [
+        [
+          15,
+          0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1781,
+      "answer": "数据分析方向共有15条岗位，但通过筛选的岗位有0条。建议您可能需要放宽筛选条件以获取更多符合条件的岗位。"
+    },
+    {
+      "id": "q21",
+      "q": "列出岗位数量最少的 3 个区（不含空值）",
+      "passed": false,
+      "sql": "SELECT district, COUNT(job_id) AS job_count FROM v_passed WHERE district != '' GROUP BY district ORDER BY job_count ASC LIMIT 3",
+      "gold": "SELECT district, COUNT(*) AS n FROM jobs WHERE district <> '' GROUP BY district ORDER BY n ASC, district LIMIT 3",
+      "actual_rows": [
+        [
+          "宝安区",
+          2
+        ],
+        [
+          "福田区",
+          3
+        ],
+        [
+          "南山区",
+          4
+        ]
+      ],
+      "gold_rows": [
+        [
+          "薪",
+          2
+        ],
+        [
+          "薪",
+          2
+        ],
+        [
+          "罗湖区",
+          3
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1882,
+      "answer": "宝安区有 2 个岗位，福田区有 3 个岗位，南山区有 4 个岗位。这些是岗位数量最少的三个区，其中宝安区的岗位数量最少。"
+    },
+    {
+      "id": "q22",
+      "q": "年薪（月薪上限乘 12）最高的岗位是哪个？",
+      "passed": false,
+      "sql": "SELECT title, company, salary_max_k * 12 AS annual_salary_max_k FROM v_passed ORDER BY annual_salary_max_k DESC LIMIT 1",
+      "gold": "SELECT title, company, salary_max_k * 12 AS year_k FROM jobs WHERE salary_kind = 'monthly' ORDER BY year_k DESC LIMIT 1",
+      "actual_rows": [
+        [
+          "VLA/VLM算法工程师",
+          "深圳某大型智能硬件公司",
+          1320.0
+        ]
+      ],
+      "gold_rows": [
+        [
+          "AI 应用讲师",
+          "寰球新途",
+          2400.0
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2185,
+      "answer": "年薪最高的岗位是VLA/VLM算法工程师，年薪132.0万元，来自深圳某大型智能硬件公司。"
+    },
+    {
+      "id": "q23",
+      "q": "大模型方向通过筛选的岗位有哪些？给出岗位名和公司名",
+      "passed": true,
+      "sql": "SELECT title AS job_title, company AS company_name FROM v_passed WHERE keyword = '大模型' LIMIT 200",
+      "gold": "SELECT title, company FROM v_passed WHERE keyword = '大模型'",
+      "actual_rows": [
+        [
+          "大模型领域专家（线上）",
+          "陕西未来纪元智能科技"
+        ],
+        [
+          "大模型开发（线上面试 六险一金+周末双休）",
+          "深圳某大型计算机软件公司"
+        ],
+        [
+          "多模态大模型 算法工程师",
+          "领智寻知"
+        ]
+      ],
+      "gold_rows": [
+        [
+          "大模型领域专家（线上）",
+          "陕西未来纪元智能科技"
+        ],
+        [
+          "大模型开发（线上面试 六险一金+周末双休）",
+          "深圳某大型计算机软件公司"
+        ],
+        [
+          "多模态大模型 算法工程师",
+          "领智寻知"
+        ]
+      ],
+      "error": "",
+      "latency_ms": 3205,
+      "answer": "有3个大模型方向的岗位：1. \"大模型领域专家（线上）\"在陕西未来纪元智能科技；2. \"大模型开发（线上面试 六险一金+周末双休）\"在深圳某大型计算机软件公司；3. \"多模态大模型 算法工程师\"在领智寻知。"
+    },
+    {
+      "id": "q24",
+      "q": "有多少条岗位既没有写区也没有写薪资？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS count FROM jobs WHERE district = '' AND salary_min_k IS NULL AND salary_max_k IS NULL LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE district = '' AND salary_raw = ''",
+      "actual_rows": [
+        [
+          19
+        ]
+      ],
+      "gold_rows": [
+        [
+          12
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2009,
+      "answer": "有19条岗位既没有写区也没有写薪资。这表明在数据集中有相当一部分岗位信息不完整，缺少基本的地理位置和薪资信息。"
+    },
+    {
+      "id": "q25",
+      "q": "13 薪以上的岗位有多少条？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS count_13_plus FROM v_passed WHERE salary_months >= 13 LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE salary_months >= 13",
+      "actual_rows": [
+        [
+          9
+        ]
+      ],
+      "gold_rows": [
+        [
+          19
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1895,
+      "answer": "有 9 条岗位提供 13 薪以上。这表明在数据集中，约 9 个岗位的薪酬结构包含 13 个月或更多的薪资。"
+    },
+    {
+      "id": "q26",
+      "q": "各学历要求下岗位的平均薪资上限是多少 K？",
+      "passed": false,
+      "sql": "SELECT degree, AVG(salary_max_k) AS avg_salary_max_k FROM v_passed WHERE salary_kind = 'monthly' AND degree IS NOT NULL GROUP BY degree ORDER BY avg_salary_max_k DESC LIMIT 200",
+      "gold": "SELECT degree, ROUND(AVG(salary_max_k), 2) AS avg_max_k FROM jobs WHERE salary_kind = 'monthly' AND degree <> '' GROUP BY degree ORDER BY avg_max_k DESC",
+      "actual_rows": [
+        [
+          "本科",
+          42.64705882352941
+        ],
+        [
+          "大专",
+          17.0
+        ]
+      ],
+      "gold_rows": [
+        [
+          "本科",
+          28.36
+        ],
+        [
+          "学历不限",
+          14.5
+        ],
+        [
+          "大专",
+          13.41
+        ]
+      ],
+      "error": "",
+      "latency_ms": 3218,
+      "answer": "本科学历岗位的平均薪资上限为 42.65K，大专学历岗位的平均薪资上限为 17.0K。本科学历岗位的薪资上限明显高于大专学历岗位。"
+    },
+    {
+      "id": "q27",
+      "q": "测试开发方向在南山区的岗位有几条？",
+      "passed": false,
+      "sql": "SELECT COUNT(*) AS count FROM v_passed WHERE title LIKE '%测试开发%' AND district = '南山区' LIMIT 200",
+      "gold": "SELECT COUNT(*) AS n FROM jobs WHERE keyword = '测试开发' AND district = '南山区'",
+      "actual_rows": [
+        [
+          1
+        ]
+      ],
+      "gold_rows": [
+        [
+          8
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2433,
+      "answer": "测试开发方向在南山区的岗位有1条。这表明当前在南山区测试开发方向的岗位数量较少。"
+    },
+    {
+      "id": "q28",
+      "q": "所有岗位的平均薪资区间（下限到上限）是多少 K？",
+      "passed": false,
+      "sql": "SELECT AVG(salary_min_k) AS avg_min_salary, AVG(salary_max_k) AS avg_max_salary FROM v_passed WHERE salary_kind = 'monthly' LIMIT 200",
+      "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k, ROUND(AVG(salary_max_k), 2) AS avg_max_k FROM jobs WHERE salary_kind = 'monthly'",
+      "actual_rows": [
+        [
+          24.444444444444443,
+          41.22222222222222
+        ]
+      ],
+      "gold_rows": [
+        [
+          14.81,
+          23.85
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2313,
+      "answer": "所有岗位的平均薪资下限是 24.44K，平均薪资上限是 41.22K。这表明整体薪资范围从约 24K 到 41K，平均薪资跨度约为 17K。"
+    },
+    {
+      "id": "q29",
+      "q": "哪些公司招的岗位数量最多？列出前 5 家",
+      "passed": false,
+      "sql": "SELECT company, COUNT(job_id) AS job_count FROM v_passed GROUP BY company ORDER BY job_count DESC LIMIT 5",
+      "gold": "SELECT company, COUNT(*) AS n FROM jobs GROUP BY company ORDER BY n DESC, company LIMIT 5",
+      "actual_rows": [
+        [
+          "深圳某大型计算机软件公司",
+          2
+        ],
+        [
+          "深圳某大型智能硬件公司",
+          1
+        ],
+        [
+          "深圳市诺因智能",
+          1
+        ],
+        [
+          "极控智联",
+          1
+        ],
+        [
+          "领智寻知",
+          1
+        ]
+      ],
+      "gold_rows": [
+        [
+          "Shopee",
+          3
+        ],
+        [
+          "字节跳动",
+          3
+        ],
+        [
+          "深圳网新新思",
+          3
+        ],
+        [
+          "Anker",
+          2
+        ],
+        [
+          "中软国际",
+          2
+        ]
+      ],
+      "error": "",
+      "latency_ms": 2688,
+      "answer": "深圳某大型计算机软件公司招的岗位数量最多，有 2 个岗位；深圳某大型智能硬件公司、深圳市诺因智能、极控智联和领智寻知各有 1 个岗位。这表明深圳某大型计算机软件公司是当前招聘需求最旺盛的企业。"
+    },
+    {
+      "id": "q30",
+      "q": "经验不限的岗位平均薪资下限是多少 K？",
+      "passed": false,
+      "sql": "SELECT AVG(salary_min_k) AS avg_salary_min_k FROM v_passed WHERE experience = '经验不限' LIMIT 200",
+      "gold": "SELECT ROUND(AVG(salary_min_k), 2) AS avg_min_k FROM jobs WHERE experience = '经验不限' AND salary_kind = 'monthly'",
+      "actual_rows": [
+        [
+          16.6
+        ]
+      ],
+      "gold_rows": [
+        [
+          17.05
+        ]
+      ],
+      "error": "",
+      "latency_ms": 1837,
+      "answer": "经验不限的岗位平均薪资下限是 16.6K。这表明不考虑工作经验要求的岗位起薪相对较低。"
+    }
+  ]
+}
